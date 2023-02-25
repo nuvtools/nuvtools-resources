@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD9B3013-E26D-4AFF-9954-230D65C8BC7A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		docs\Publishing.txt = docs\Publishing.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70A4D75D-C282-4A17-8539-65437323D6A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuvTools.Resources", "src\NuvTools.Resources\NuvTools.Resources.csproj", "{7FB593F0-4DD3-4938-B2E1-F63FEA52C5A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB593F0-4DD3-4938-B2E1-F63FEA52C5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB593F0-4DD3-4938-B2E1-F63FEA52C5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB593F0-4DD3-4938-B2E1-F63FEA52C5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB593F0-4DD3-4938-B2E1-F63FEA52C5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FB593F0-4DD3-4938-B2E1-F63FEA52C5A9} = {70A4D75D-C282-4A17-8539-65437323D6A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E82EED9-AF8F-420E-B29B-948F68FC30FF}
+	EndGlobalSection
+EndGlobal
