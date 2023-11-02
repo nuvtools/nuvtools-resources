@@ -459,9 +459,6 @@
   <data name="RowsPerPage" xml:space="preserve">
     <value>Rows per page</value>
   </data>
-  <data name="RowsPerPageInfoFormat" xml:space="preserve">
-    <value>{first_item}-{last_item} of {all_items}</value>
-  </data>
   <data name="Save" xml:space="preserve">
     <value>Save</value>
   </data>
@@ -523,7 +520,7 @@
     <value>User type</value>
   </data>
   <data name="Value" xml:space="preserve">
-    <value>VAlue</value>
+    <value>Value</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome</value>

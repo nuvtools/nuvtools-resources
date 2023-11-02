@@ -9,7 +9,7 @@
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>NuvTools.Resources.snk</AssemblyOriginatorKeyFile>
     <Description>Contains the common resources for using in the libraries and projects of Nuv Tools.</Description>
-    <Version>7.0.0</Version>
+    <Version>7.1.0</Version>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <PackageIcon>icon.png</PackageIcon>
@@ -50,10 +50,25 @@
 	</ItemGroup>
 	
   <ItemGroup>
+    <Compile Update="DynamicValidationMessages.Designer.cs">
+      <DependentUpon>DynamicValidationMessages.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="DynamicFields.Designer.cs">
+      <DependentUpon>DynamicFields.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="Fields.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Fields.resx</DependentUpon>
+    </Compile>
+    <Compile Update="DynamicMessages.Designer.cs">
+      <DependentUpon>DynamicMessages.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Update="Messages.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -63,11 +78,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="DynamicValidationMessages.pt-BR.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DynamicValidationMessages.resx">
+      <LastGenOutput>DynamicValidationMessages.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DynamicFields.resx">
+      <LastGenOutput>DynamicFields.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Fields.pt-BR.resx">
       <Generator></Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Fields.resx">
       <LastGenOutput>Fields.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DynamicMessages.resx">
+      <LastGenOutput>DynamicMessages.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Messages.pt-BR.resx">

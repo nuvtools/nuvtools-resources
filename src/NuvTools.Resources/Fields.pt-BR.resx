@@ -459,9 +459,6 @@
   <data name="RowsPerPage" xml:space="preserve">
     <value>Linhas por página</value>
   </data>
-  <data name="RowsPerPageInfoFormat" xml:space="preserve">
-    <value>{first_item}-{last_item} de {all_items}</value>
-  </data>
   <data name="Save" xml:space="preserve">
     <value>Salvar</value>
   </data>

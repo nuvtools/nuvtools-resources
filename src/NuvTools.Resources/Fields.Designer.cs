@@ -1087,15 +1087,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {first_item}-{last_item} of {all_items}.
-        /// </summary>
-        public static string RowsPerPageInfoFormat {
-            get {
-                return ResourceManager.GetString("RowsPerPageInfoFormat", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Save.
         /// </summary>
         public static string Save {
@@ -1276,7 +1267,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to VAlue.
+        ///   Looks up a localized string similar to Value.
         /// </summary>
         public static string Value {
             get {

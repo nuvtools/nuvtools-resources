@@ -117,85 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ConfirmRegistration" xml:space="preserve">
-    <value>Confirmação de registro</value>
+  <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
+    <value>At least one of these parameters should be filled: {0}.</value>
   </data>
-  <data name="ConfirmDeletion" xml:space="preserve">
-    <value>Confirma a exclusão?</value>
+  <data name="DateXMustBeAfterDateY" xml:space="preserve">
+    <value>Date {0} must be after date {1}.</value>
   </data>
-  <data name="DeleteConfirmation" xml:space="preserve">
-    <value>Confirmação de exclusão</value>
+  <data name="EmailXAlreadyTaken" xml:space="preserve">
+    <value>E-mail {0} is already taken.</value>
   </data>
-  <data name="DoYouReallyLogout" xml:space="preserve">
-    <value>Deseja realmente sair?</value>
+  <data name="FieldXMustBeBetweenYandZCharacters" xml:space="preserve">
+    <value>Campo {0} deve conter entre {1} e {2} caracteres.</value>
   </data>
-  <data name="EnterYourSearch" xml:space="preserve">
-    <value>Informe a sua pesquisa</value>
+  <data name="XInvalid" xml:space="preserve">
+    <value>{0} is invalid.</value>
   </data>
-  <data name="GoHome" xml:space="preserve">
-    <value>Ir para início</value>
+  <data name="XMustBeUpToYCharacters" xml:space="preserve">
+    <value>The {0} should be up to {1} character(s).</value>
   </data>
-  <data name="InvalidEmail" xml:space="preserve">
-    <value>E-mail inválido.</value>
+  <data name="XMustContainAtLeastYCapitalLetters" xml:space="preserve">
+    <value>The {0} must contain at least {1} capital letter(s).</value>
   </data>
-  <data name="InvalidValue" xml:space="preserve">
-    <value>Valor inválido.</value>
+  <data name="XMustContainAtLeastYDigits" xml:space="preserve">
+    <value>The {0} must contain at least {1} digit(s).</value>
   </data>
-  <data name="LogoutConfirmation" xml:space="preserve">
-    <value>Confirmação para sair</value>
+  <data name="XMustContainAtLeastYLowerCaseLetters" xml:space="preserve">
+    <value>The {0} must contain at least {1} lower case letter(s).</value>
   </data>
-  <data name="NotAllowed" xml:space="preserve">
-    <value>Não permitido.</value>
+  <data name="XRequired" xml:space="preserve">
+    <value>{0} is required.</value>
   </data>
-  <data name="OperationPerformedSuccessfully" xml:space="preserve">
-    <value>Operação realizada com sucesso.</value>
+  <data name="XShouldBeEqualY" xml:space="preserve">
+    <value>The {0} should be equal {1}.</value>
   </data>
-  <data name="TheOperationCouldNotBePerformed" xml:space="preserve">
-    <value>Não foi possível realizar a operação.</value>
-  </data>
-  <data name="ThePageYouWereLookingForDoesntExist" xml:space="preserve">
-    <value>A página que você estava procurando não existe.</value>
-  </data>
-  <data name="ValueOutsideRange" xml:space="preserve">
-    <value>Valor fora da faixa</value>
-  </data>
-  <data name="EmailConfirmed" xml:space="preserve">
-    <value>E-mail confirmado.</value>
-  </data>
-  <data name="PasswordResetMailWasSent" xml:space="preserve">
-    <value>E-mail para redefinição de senha enviado.</value>
-  </data>
-  <data name="PasswordResetSuccessful" xml:space="preserve">
-    <value>Senha redefinida com sucesso!</value>
-  </data>
-  <data name="TokenNotFound" xml:space="preserve">
-    <value>Token não encontrado.</value>
-  </data>
-  <data name="CancelDeletion" xml:space="preserve">
-    <value>Cancelar exclusão</value>
-  </data>
-  <data name="CancelInclusion" xml:space="preserve">
-    <value>Cancelar inclusão</value>
-  </data>
-  <data name="ConfirmInclusion" xml:space="preserve">
-    <value>Confirmar inclusão</value>
-  </data>
-  <data name="ToConfirmDeletion" xml:space="preserve">
-    <value>Confirmar exclusão</value>
-  </data>
-  <data name="RoleAlreadyExists" xml:space="preserve">
-    <value>Perfil já existe.</value>
-  </data>
-  <data name="RolesRegistered" xml:space="preserve">
-    <value>Perfis cadastrados</value>
-  </data>
-  <data name="UserNotFound" xml:space="preserve">
-    <value>Usuário não encontrado.</value>
-  </data>
-  <data name="UsersRegistered" xml:space="preserve">
-    <value>Usuários registrados</value>
-  </data>
-  <data name="ValidationProblemsFound" xml:space="preserve">
-    <value>Problemas de validação encontrados.</value>
+  <data name="XShouldHaveAtLeastYCharacters" xml:space="preserve">
+    <value>The {0} should have at least {1} character(s).</value>
   </data>
 </root>

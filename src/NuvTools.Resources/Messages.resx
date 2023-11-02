@@ -117,26 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
-    <value>At least one of these parameters should be filled: {0}.</value>
-  </data>
   <data name="ConfirmRegistration" xml:space="preserve">
     <value>Confirm registration</value>
   </data>
   <data name="ConfirmDeletion" xml:space="preserve">
     <value>Confirm the deletion?</value>
   </data>
-  <data name="DateXMustBeAfterDateY" xml:space="preserve">
-    <value>Date {0} must be after date {1}.</value>
-  </data>
   <data name="DeleteConfirmation" xml:space="preserve">
     <value>Delete Confirmation</value>
   </data>
   <data name="DoYouReallyLogout" xml:space="preserve">
     <value>Do you really logout?</value>
-  </data>
-  <data name="EmailXAlreadyTaken" xml:space="preserve">
-    <value>E-mail {0} is already taken.</value>
   </data>
   <data name="EnterYourSearch" xml:space="preserve">
     <value>Enter your search</value>
@@ -165,41 +156,11 @@
   <data name="ThePageYouWereLookingForDoesntExist" xml:space="preserve">
     <value>The page you were looking for doesn't exist.</value>
   </data>
-  <data name="ThereIsNoXRegisteredSoFar" xml:space="preserve">
-    <value>There is no {0} registered so far.</value>
-  </data>
   <data name="ValueOutsideRange" xml:space="preserve">
     <value>Value outside range</value>
   </data>
-  <data name="XInvalid" xml:space="preserve">
-    <value>{0} is invalid.</value>
-  </data>
-  <data name="XMustBeUpToYCharacters" xml:space="preserve">
-    <value>The {0} should be up to {1} character(s).</value>
-  </data>
-  <data name="XMustContainAtLeastYCapitalLetters" xml:space="preserve">
-    <value>The {0} must contain at least {1} capital letter(s).</value>
-  </data>
-  <data name="XMustContainAtLeastYDigits" xml:space="preserve">
-    <value>The {0} must contain at least {1} digit(s).</value>
-  </data>
-  <data name="XMustContainAtLeastYLowerCaseLetters" xml:space="preserve">
-    <value>The {0} must contain at least {1} lower case letter(s).</value>
-  </data>
-  <data name="XRequired" xml:space="preserve">
-    <value>{0} is required.</value>
-  </data>
-  <data name="XShouldBeEqualY" xml:space="preserve">
-    <value>{0} should be equal {1}.</value>
-  </data>
-  <data name="XShouldHaveAtLeastYCharacters" xml:space="preserve">
-    <value>The {0} should have at least {1} character(s).</value>
-  </data>
   <data name="EmailConfirmed" xml:space="preserve">
     <value>E-mail confirmed.</value>
-  </data>
-  <data name="PasswordResetEmailContentWithLinkX" xml:space="preserve">
-    <value>Please reset your password by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
   </data>
   <data name="PasswordResetMailWasSent" xml:space="preserve">
     <value>Password Reset Mail was sent.</value>
@@ -208,10 +169,7 @@
     <value>Password Reset Successful!</value>
   </data>
   <data name="TokenNotFound" xml:space="preserve">
-    <value>Token Not Found!</value>
-  </data>
-  <data name="EmailConfirmationContentWithLinkX" xml:space="preserve">
-    <value>Please confirm your account by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
+    <value>Token not found.</value>
   </data>
   <data name="CancelInclusion" xml:space="preserve">
     <value>Cancel inclusion</value>
@@ -237,7 +195,7 @@
   <data name="UsersRegistered" xml:space="preserve">
     <value>Users registered</value>
   </data>
-  <data name="WelcomeX" xml:space="preserve">
-    <value>Welcome {0}.</value>
+  <data name="ValidationProblemsFound" xml:space="preserve">
+    <value>Validation problems were found.</value>
   </data>
 </root>
