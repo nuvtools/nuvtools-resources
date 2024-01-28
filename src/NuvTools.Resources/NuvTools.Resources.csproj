@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6;net7</TargetFrameworks>
+    <TargetFrameworks>net6;net7;net8</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Nuv Tools</Authors>
-    <Copyright>Copyright © 2023 Nuv Tools</Copyright>
+    <Copyright>Copyright © 2024 Nuv Tools</Copyright>
     <PackageProjectUrl>https://nuv.tools</PackageProjectUrl>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>NuvTools.Resources.snk</AssemblyOriginatorKeyFile>
     <Description>Contains the common resources for using in the libraries and projects of Nuv Tools.</Description>
-    <Version>7.1.0</Version>
+    <Version>8.0.0</Version>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <PackageIcon>icon.png</PackageIcon>
@@ -22,14 +22,6 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Nuv Tools Resources English Portuguese Fields Messages</PackageTags>
 	  
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6|AnyCPU'">
-    <WarningLevel>6</WarningLevel>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6|AnyCPU'">
-    <WarningLevel>6</WarningLevel>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -50,6 +42,11 @@
 	</ItemGroup>
 	
   <ItemGroup>
+    <Compile Update="DynamicFluentValidationMessages.Designer.cs">
+      <DependentUpon>DynamicFluentValidationMessages.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="DynamicValidationMessages.Designer.cs">
       <DependentUpon>DynamicValidationMessages.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -78,6 +75,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="DynamicFluentValidationMessages.resx">
+      <LastGenOutput>DynamicFluentValidationMessages.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="DynamicValidationMessages.pt-BR.resx">
       <Generator></Generator>
     </EmbeddedResource>
