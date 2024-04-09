@@ -61,15 +61,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Campo {PropertyName} deve conter entre {From} e {To} caracteres..
-        /// </summary>
-        public static string FieldXMustBeBetweenYandZCharacters {
-            get {
-                return ResourceManager.GetString("FieldXMustBeBetweenYandZCharacters", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to {PropertyName} is invalid..
         /// </summary>
         public static string XInvalid {
@@ -79,11 +70,47 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {PropertyName} should be up to {MaxLength} character(s)..
+        ///   Looks up a localized string similar to The {PropertyName} must be equal {ComparisonProperty}..
         /// </summary>
-        public static string XMustBeUpToYCharacters {
+        public static string XMustBeEqualY {
             get {
-                return ResourceManager.GetString("XMustBeUpToYCharacters", resourceCulture);
+                return ResourceManager.GetString("XMustBeEqualY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {PropertyName} must contain at least {MinLength} character(s)..
+        /// </summary>
+        public static string XMustContainAtLeastYCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainAtLeastYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {PropertyName} must contain between {From} and {To} characters..
+        /// </summary>
+        public static string XMustContainBetweenYandZCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainBetweenYandZCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {PropertyName} must contain {MinLength} character(s)..
+        /// </summary>
+        public static string XMustContainYCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {PropertyName} must be up to {MaxLength} character(s)..
+        /// </summary>
+        public static string XMustHaveUpToYCharacters {
+            get {
+                return ResourceManager.GetString("XMustHaveUpToYCharacters", resourceCulture);
             }
         }
         
@@ -93,24 +120,6 @@ namespace NuvTools.Resources {
         public static string XRequired {
             get {
                 return ResourceManager.GetString("XRequired", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {PropertyName} should be equal {ComparisonProperty}..
-        /// </summary>
-        public static string XShouldBeEqualY {
-            get {
-                return ResourceManager.GetString("XShouldBeEqualY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {PropertyName} should have at least {MinLength} character(s)..
-        /// </summary>
-        public static string XShouldHaveAtLeastYCharacters {
-            get {
-                return ResourceManager.GetString("XShouldHaveAtLeastYCharacters", resourceCulture);
             }
         }
     }

@@ -117,22 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="FieldXMustBeBetweenYandZCharacters" xml:space="preserve">
-    <value>Campo {PropertyName} deve conter entre {From} e {To} caracteres.</value>
-  </data>
   <data name="XInvalid" xml:space="preserve">
     <value>{PropertyName} is invalid.</value>
   </data>
-  <data name="XMustBeUpToYCharacters" xml:space="preserve">
-    <value>The {PropertyName} should be up to {MaxLength} character(s).</value>
+  <data name="XMustBeEqualY" xml:space="preserve">
+    <value>The {PropertyName} must be equal {ComparisonProperty}.</value>
+  </data>
+  <data name="XMustContainAtLeastYCharacters" xml:space="preserve">
+    <value>The {PropertyName} must contain at least {MinLength} character(s).</value>
+  </data>
+  <data name="XMustContainBetweenYandZCharacters" xml:space="preserve">
+    <value>The {PropertyName} must contain between {From} and {To} characters.</value>
+  </data>
+  <data name="XMustContainYCharacters" xml:space="preserve">
+    <value>The {PropertyName} must contain {MinLength} character(s).</value>
+  </data>
+  <data name="XMustHaveUpToYCharacters" xml:space="preserve">
+    <value>The {PropertyName} must be up to {MaxLength} character(s).</value>
   </data>
   <data name="XRequired" xml:space="preserve">
     <value>{PropertyName} is required.</value>
-  </data>
-  <data name="XShouldBeEqualY" xml:space="preserve">
-    <value>The {PropertyName} should be equal {ComparisonProperty}.</value>
-  </data>
-  <data name="XShouldHaveAtLeastYCharacters" xml:space="preserve">
-    <value>The {PropertyName} should have at least {MinLength} character(s).</value>
   </data>
 </root>

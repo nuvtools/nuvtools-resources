@@ -88,15 +88,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Campo {0} deve conter entre {1} e {2} caracteres..
-        /// </summary>
-        public static string FieldXMustBeBetweenYandZCharacters {
-            get {
-                return ResourceManager.GetString("FieldXMustBeBetweenYandZCharacters", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to {0} is invalid..
         /// </summary>
         public static string XInvalid {
@@ -106,11 +97,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} should be up to {1} character(s)..
+        ///   Looks up a localized string similar to The {0} must be equal {1}..
         /// </summary>
-        public static string XMustBeUpToYCharacters {
+        public static string XMustBeEqualY {
             get {
-                return ResourceManager.GetString("XMustBeUpToYCharacters", resourceCulture);
+                return ResourceManager.GetString("XMustBeEqualY", resourceCulture);
             }
         }
         
@@ -142,29 +133,38 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain between {1} and {2} character(s)..
+        /// </summary>
+        public static string XMustContainBetweenYandZCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainBetweenYandZCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must have at least {1} character(s)..
+        /// </summary>
+        public static string XMustHaveAtLeastYCharacters {
+            get {
+                return ResourceManager.GetString("XMustHaveAtLeastYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must have up to {1} character(s)..
+        /// </summary>
+        public static string XMustHaveUpToYCharacters {
+            get {
+                return ResourceManager.GetString("XMustHaveUpToYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} is required..
         /// </summary>
         public static string XRequired {
             get {
                 return ResourceManager.GetString("XRequired", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {0} should be equal {1}..
-        /// </summary>
-        public static string XShouldBeEqualY {
-            get {
-                return ResourceManager.GetString("XShouldBeEqualY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {0} should have at least {1} character(s)..
-        /// </summary>
-        public static string XShouldHaveAtLeastYCharacters {
-            get {
-                return ResourceManager.GetString("XShouldHaveAtLeastYCharacters", resourceCulture);
             }
         }
     }

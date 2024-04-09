@@ -126,14 +126,11 @@
   <data name="EmailXAlreadyTaken" xml:space="preserve">
     <value>E-mail {0} já em uso.</value>
   </data>
-  <data name="FieldXMustBeBetweenYandZCharacters" xml:space="preserve">
-    <value>Campo {0} deve conter entre {1} e {2} caracteres.</value>
-  </data>
   <data name="XInvalid" xml:space="preserve">
     <value>{0} inválido(a).</value>
   </data>
-  <data name="XMustBeUpToYCharacters" xml:space="preserve">
-    <value>O(A) {0} deve ter até {1} caractere(s).</value>
+  <data name="XMustBeEqualY" xml:space="preserve">
+    <value>O(A) {0} deve ser igual ao(à) {1}.</value>
   </data>
   <data name="XMustContainAtLeastYCapitalLetters" xml:space="preserve">
     <value>O(A) {0} deve conter pelo menos {1} letra(s) maiúscula(s).</value>
@@ -144,13 +141,16 @@
   <data name="XMustContainAtLeastYLowerCaseLetters" xml:space="preserve">
     <value>O(A) {0} deve conter pelo menos {1} letra(s) minúscula(s).</value>
   </data>
+  <data name="XMustContainBetweenYandZCharacters" xml:space="preserve">
+    <value>O(A) {0} deve conter entre {1} e {2} caracteres.</value>
+  </data>
+  <data name="XMustHaveAtLeastYCharacters" xml:space="preserve">
+    <value>O(A) {0} deve ter pelo menos {1} caracter(s).</value>
+  </data>
+  <data name="XMustHaveUpToYCharacters" xml:space="preserve">
+    <value>O(A) {0} deve ter até {1} caractere(s).</value>
+  </data>
   <data name="XRequired" xml:space="preserve">
     <value>{0} é obrigatório(a).</value>
-  </data>
-  <data name="XShouldBeEqualY" xml:space="preserve">
-    <value>O(A) {0} deve ser igual ao(à) {1}.</value>
-  </data>
-  <data name="XShouldHaveAtLeastYCharacters" xml:space="preserve">
-    <value>O(A) {0} deve ter pelo menos {1} caracter(s).</value>
   </data>
 </root>
