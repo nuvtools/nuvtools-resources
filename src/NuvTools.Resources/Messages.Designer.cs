@@ -178,6 +178,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to None parameter informed..
+        /// </summary>
+        public static string NoneParameterInformed {
+            get {
+                return ResourceManager.GetString("NoneParameterInformed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Not Allowed..
         /// </summary>
         public static string NotAllowed {

@@ -198,4 +198,7 @@
   <data name="ValidationProblemsFound" xml:space="preserve">
     <value>Validation problems were found.</value>
   </data>
+  <data name="NoneParameterInformed" xml:space="preserve">
+    <value>None parameter informed.</value>
+  </data>
 </root>
