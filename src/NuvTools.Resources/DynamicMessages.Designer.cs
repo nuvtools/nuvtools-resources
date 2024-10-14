@@ -95,5 +95,14 @@ namespace NuvTools.Resources {
                 return ResourceManager.GetString("WelcomeX", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} not found..
+        /// </summary>
+        public static string XNotFound {
+            get {
+                return ResourceManager.GetString("XNotFound", resourceCulture);
+            }
+        }
     }
 }

@@ -129,4 +129,7 @@
   <data name="WelcomeX" xml:space="preserve">
     <value>Welcome {0}.</value>
   </data>
+  <data name="XNotFound" xml:space="preserve">
+    <value>{0} not found.</value>
+  </data>
 </root>
