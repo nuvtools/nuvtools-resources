@@ -97,6 +97,33 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {0} must be equal {1}..
+        /// </summary>
+        public static string XMustBeEqualY {
+            get {
+                return ResourceManager.GetString("XMustBeEqualY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must be greater than {1}..
+        /// </summary>
+        public static string XMustBeGreaterThanY {
+            get {
+                return ResourceManager.GetString("XMustBeGreaterThanY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must be less than {1}..
+        /// </summary>
+        public static string XMustBeLessThanY {
+            get {
+                return ResourceManager.GetString("XMustBeLessThanY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} not found..
         /// </summary>
         public static string XNotFound {

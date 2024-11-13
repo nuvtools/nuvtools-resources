@@ -132,4 +132,13 @@
   <data name="XNotFound" xml:space="preserve">
     <value>{0} não encontrado(a).</value>
   </data>
+  <data name="XMustBeGreaterThanY" xml:space="preserve">
+    <value>{0} deve ser maior do que {1}.</value>
+  </data>
+  <data name="XMustBeLessThanY" xml:space="preserve">
+    <value>{0} deve ser menor do que {1}.</value>
+  </data>
+  <data name="XMustBeEqualY" xml:space="preserve">
+    <value>O(A) {0} deve ser igual ao(à) {1}.</value>
+  </data>
 </root>
