@@ -174,11 +174,17 @@
   <data name="Clients" xml:space="preserve">
     <value>Clientes</value>
   </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
   <data name="CNPJ" xml:space="preserve">
     <value>CNPJ</value>
   </data>
   <data name="Code" xml:space="preserve">
     <value>Código</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Empresa</value>
   </data>
   <data name="CompanyName" xml:space="preserve">
     <value>Razão Social</value>
@@ -207,6 +213,9 @@
   <data name="Contracts" xml:space="preserve">
     <value>Contracts</value>
   </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
   <data name="CPF" xml:space="preserve">
     <value>CPF</value>
   </data>
@@ -215,6 +224,9 @@
   </data>
   <data name="DarkMode" xml:space="preserve">
     <value>Modo Noturno</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Painel</value>
   </data>
   <data name="Date" xml:space="preserve">
     <value>Data</value>
@@ -242,6 +254,9 @@
   </data>
   <data name="DontHaveAnAccountQuestion" xml:space="preserve">
     <value>Não tem uma conta?</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
   </data>
   <data name="Elevation" xml:space="preserve">
     <value>Elevação</value>
@@ -318,6 +333,9 @@
   <data name="Initials" xml:space="preserve">
     <value>Sigla</value>
   </data>
+  <data name="Input" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
   <data name="IssuedIn" xml:space="preserve">
     <value>Emitido em</value>
   </data>
@@ -339,7 +357,7 @@
   <data name="Longitude" xml:space="preserve">
     <value>Longitude</value>
   </data>
-  <data name="Maintanence" xml:space="preserve">
+  <data name="Maintenance" xml:space="preserve">
     <value>Manutenção</value>
   </data>
   <data name="Manage" xml:space="preserve">
@@ -429,6 +447,9 @@
   <data name="Profile" xml:space="preserve">
     <value>Perfil</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Fila</value>
+  </data>
   <data name="Radius" xml:space="preserve">
     <value>Raio</value>
   </data>
@@ -462,6 +483,9 @@
   <data name="Save" xml:space="preserve">
     <value>Salvar</value>
   </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
   <data name="Security" xml:space="preserve">
     <value>Segurança</value>
   </data>
@@ -479,6 +503,9 @@
   </data>
   <data name="State" xml:space="preserve">
     <value>Estado</value>
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>Estados</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Situação</value>
@@ -509,6 +536,9 @@
   </data>
   <data name="UpdatedBy" xml:space="preserve">
     <value>Alterado por</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Url</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>Usuário</value>

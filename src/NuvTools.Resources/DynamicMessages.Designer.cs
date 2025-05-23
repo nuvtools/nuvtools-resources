@@ -97,6 +97,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0} already exists..
+        /// </summary>
+        public static string XAlreadyExists {
+            get {
+                return ResourceManager.GetString("XAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The {0} must be equal {1}..
         /// </summary>
         public static string XMustBeEqualY {

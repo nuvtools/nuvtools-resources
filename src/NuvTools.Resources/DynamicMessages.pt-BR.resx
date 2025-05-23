@@ -141,4 +141,7 @@
   <data name="XMustBeEqualY" xml:space="preserve">
     <value>O(A) {0} deve ser igual ao(à) {1}.</value>
   </data>
+  <data name="XAlreadyExists" xml:space="preserve">
+    <value>{0} já existe.</value>
+  </data>
 </root>

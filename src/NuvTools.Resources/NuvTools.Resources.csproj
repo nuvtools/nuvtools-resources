@@ -4,12 +4,12 @@
 		<TargetFrameworks>net8;net9</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Nuv Tools</Authors>
-		<Copyright>Copyright © 2024 Nuv Tools</Copyright>
+		<Copyright>Copyright © 2025 Nuv Tools</Copyright>
 		<PackageProjectUrl>https://nuvtools.com</PackageProjectUrl>
 		<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>NuvTools.Resources.snk</AssemblyOriginatorKeyFile>
 		<Description>Contains the common resources for using in the libraries and projects of Nuv Tools.</Description>
-		<Version>9.0.0</Version>
+		<Version>9.0.1</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
 		<PackageIcon>icon.png</PackageIcon>
