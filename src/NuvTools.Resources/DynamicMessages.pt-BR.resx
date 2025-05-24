@@ -144,4 +144,10 @@
   <data name="XAlreadyExists" xml:space="preserve">
     <value>{0} já existe.</value>
   </data>
+  <data name="OperationNotAllowedForTheSpecifiedX" xml:space="preserve">
+    <value>Esta operação não é permitida para o(a) {0} especificado.</value>
+  </data>
+  <data name="OperationNotPerformedXIsInUse" xml:space="preserve">
+    <value>Operação não realizada. {0} em uso.</value>
+  </data>
 </root>

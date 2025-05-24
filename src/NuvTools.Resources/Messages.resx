@@ -201,4 +201,7 @@
   <data name="NoneParameterInformed" xml:space="preserve">
     <value>None parameter informed.</value>
   </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
 </root>

@@ -171,14 +171,14 @@
   <data name="TokenNotFound" xml:space="preserve">
     <value>Token não encontrado.</value>
   </data>
-  <data name="CancelDeletion" xml:space="preserve">
-    <value>Cancelar exclusão</value>
-  </data>
   <data name="CancelInclusion" xml:space="preserve">
     <value>Cancelar inclusão</value>
   </data>
   <data name="ConfirmInclusion" xml:space="preserve">
     <value>Confirmar inclusão</value>
+  </data>
+  <data name="CancelDeletion" xml:space="preserve">
+    <value>Cancelar exclusão</value>
   </data>
   <data name="ToConfirmDeletion" xml:space="preserve">
     <value>Confirmar exclusão</value>
@@ -200,5 +200,8 @@
   </data>
   <data name="NoneParameterInformed" xml:space="preserve">
     <value>Nenhum parâmetro informado.</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>A operação falhou.</value>
   </data>
 </root>

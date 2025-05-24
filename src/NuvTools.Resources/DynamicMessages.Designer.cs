@@ -70,6 +70,24 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Operation not allowed for the specified {0}..
+        /// </summary>
+        public static string OperationNotAllowedForTheSpecifiedX {
+            get {
+                return ResourceManager.GetString("OperationNotAllowedForTheSpecifiedX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operation not performed. {0} is in use.
+        /// </summary>
+        public static string OperationNotPerformedXIsInUse {
+            get {
+                return ResourceManager.GetString("OperationNotPerformedXIsInUse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please reset your password by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
         /// </summary>
         public static string PasswordResetEmailContentWithLinkX {
