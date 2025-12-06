@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,40 +117,103 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
-    <value>Pelo menos um desses parâmetros deve ser informado: {0}.</value>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
   </data>
-  <data name="DateXMustBeAfterDateY" xml:space="preserve">
-    <value>A data {0} deve ser posterior à data {1}.</value>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
   </data>
-  <data name="EmailXAlreadyTaken" xml:space="preserve">
-    <value>E-mail {0} já em uso.</value>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
   </data>
-  <data name="XInvalid" xml:space="preserve">
-    <value>{0} inválido(a).</value>
+  <data name="CancelInclusion" xml:space="preserve">
+    <value>Cancel inclusion</value>
   </data>
-  <data name="XMustBeEqualY" xml:space="preserve">
-    <value>O(A) {0} deve ser igual ao(à) {1}.</value>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
   </data>
-  <data name="XMustContainAtLeastYCapitalLetters" xml:space="preserve">
-    <value>O(A) {0} deve conter pelo menos {1} letra(s) maiúscula(s).</value>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
   </data>
-  <data name="XMustContainAtLeastYDigits" xml:space="preserve">
-    <value>O(A) {0} deve conter pelo menos {1} dígito(s).</value>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
   </data>
-  <data name="XMustContainAtLeastYLowerCaseLetters" xml:space="preserve">
-    <value>O(A) {0} deve conter pelo menos {1} letra(s) minúscula(s).</value>
+  <data name="ConfirmInclusion" xml:space="preserve">
+    <value>Confirm inclusion</value>
   </data>
-  <data name="XMustContainBetweenYandZCharacters" xml:space="preserve">
-    <value>O(A) {0} deve conter entre {1} e {2} caracteres.</value>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
   </data>
-  <data name="XMustHaveAtLeastYCharacters" xml:space="preserve">
-    <value>O(A) {0} deve ter pelo menos {1} caracter(s).</value>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Deactivate</value>
   </data>
-  <data name="XMustHaveUpToYCharacters" xml:space="preserve">
-    <value>O(A) {0} deve ter até {1} caractere(s).</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
   </data>
-  <data name="XRequired" xml:space="preserve">
-    <value>{0} é obrigatório(a).</value>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RegisterHere" xml:space="preserve">
+    <value>Register here</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Replicate" xml:space="preserve">
+    <value>Replicate</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
   </data>
 </root>

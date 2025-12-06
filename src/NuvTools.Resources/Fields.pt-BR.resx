@@ -123,6 +123,9 @@
   <data name="AccountDetails" xml:space="preserve">
     <value>Detalhes da Conta</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Ação</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Ações</value>
   </data>
@@ -131,9 +134,6 @@
   </data>
   <data name="Active" xml:space="preserve">
     <value>Ativo</value>
-  </data>
-  <data name="Add" xml:space="preserve">
-    <value>Adicionar</value>
   </data>
   <data name="Address" xml:space="preserve">
     <value>Logradouro</value>
@@ -144,9 +144,6 @@
   <data name="AutoConfirmEmailQuestion" xml:space="preserve">
     <value>Auto confirmar e-mail?</value>
   </data>
-  <data name="Back" xml:space="preserve">
-    <value>Voltar</value>
-  </data>
   <data name="BirthDate" xml:space="preserve">
     <value>Data de nascimento</value>
   </data>
@@ -156,15 +153,6 @@
   <data name="Brand" xml:space="preserve">
     <value>Marca</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="CancelInclusion" xml:space="preserve">
-    <value>Cancelar a inclusão</value>
-  </data>
-  <data name="ChangePassword" xml:space="preserve">
-    <value>Alterar Senha</value>
-  </data>
   <data name="City" xml:space="preserve">
     <value>Cidade</value>
   </data>
@@ -173,9 +161,6 @@
   </data>
   <data name="Clients" xml:space="preserve">
     <value>Clientes</value>
-  </data>
-  <data name="Close" xml:space="preserve">
-    <value>Fechar</value>
   </data>
   <data name="CNPJ" xml:space="preserve">
     <value>CNPJ</value>
@@ -191,12 +176,6 @@
   </data>
   <data name="Complement" xml:space="preserve">
     <value>Complemento</value>
-  </data>
-  <data name="Confirm" xml:space="preserve">
-    <value>Confirmar</value>
-  </data>
-  <data name="ConfirmInclusion" xml:space="preserve">
-    <value>Confirmar a inclusão</value>
   </data>
   <data name="ConfirmNewPassword" xml:space="preserve">
     <value>Confirmação de Nova Senha</value>
@@ -240,9 +219,6 @@
   <data name="Day" xml:space="preserve">
     <value>Dia</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Excluir</value>
-  </data>
   <data name="Description" xml:space="preserve">
     <value>Descrição</value>
   </data>
@@ -254,9 +230,6 @@
   </data>
   <data name="DontHaveAnAccountQuestion" xml:space="preserve">
     <value>Não tem uma conta?</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Editar</value>
   </data>
   <data name="Elevation" xml:space="preserve">
     <value>Elevação</value>
@@ -327,9 +300,6 @@
   <data name="Image" xml:space="preserve">
     <value>Imagem</value>
   </data>
-  <data name="Include" xml:space="preserve">
-    <value>Incluir</value>
-  </data>
   <data name="Initials" xml:space="preserve">
     <value>Sigla</value>
   </data>
@@ -351,23 +321,11 @@
   <data name="Localization" xml:space="preserve">
     <value>Localização</value>
   </data>
-  <data name="Logout" xml:space="preserve">
-    <value>Sair</value>
-  </data>
   <data name="Longitude" xml:space="preserve">
     <value>Longitude</value>
   </data>
   <data name="Maintenance" xml:space="preserve">
     <value>Manutenção</value>
-  </data>
-  <data name="Manage" xml:space="preserve">
-    <value>Gerenciar</value>
-  </data>
-  <data name="ManagePermission" xml:space="preserve">
-    <value>Gerenciar permissões</value>
-  </data>
-  <data name="ManageUsers" xml:space="preserve">
-    <value>Gestão de Usuários</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>Mensagem</value>
@@ -453,23 +411,8 @@
   <data name="Radius" xml:space="preserve">
     <value>Raio</value>
   </data>
-  <data name="Register" xml:space="preserve">
-    <value>Registrar</value>
-  </data>
-  <data name="RegisterHere" xml:space="preserve">
-    <value>Registre aqui</value>
-  </data>
-  <data name="Reload" xml:space="preserve">
-    <value>Atualizar</value>
-  </data>
   <data name="RememberMeQuestion" xml:space="preserve">
     <value>Lembrar?</value>
-  </data>
-  <data name="Replicate" xml:space="preserve">
-    <value>Replicar</value>
-  </data>
-  <data name="ResetPassword" xml:space="preserve">
-    <value>Redefinir Senha</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>Função</value>
@@ -480,23 +423,8 @@
   <data name="RowsPerPage" xml:space="preserve">
     <value>Linhas por página</value>
   </data>
-  <data name="Save" xml:space="preserve">
-    <value>Salvar</value>
-  </data>
-  <data name="Search" xml:space="preserve">
-    <value>Pesquisar</value>
-  </data>
   <data name="Security" xml:space="preserve">
     <value>Segurança</value>
-  </data>
-  <data name="Show" xml:space="preserve">
-    <value>Exibe</value>
-  </data>
-  <data name="SignIn" xml:space="preserve">
-    <value>Entrar</value>
-  </data>
-  <data name="Start" xml:space="preserve">
-    <value>Início</value>
   </data>
   <data name="StartDate" xml:space="preserve">
     <value>Data de Início</value>
@@ -528,9 +456,6 @@
   <data name="UF" xml:space="preserve">
     <value>UF</value>
   </data>
-  <data name="Update" xml:space="preserve">
-    <value>Atualizar</value>
-  </data>
   <data name="UpdatedAt" xml:space="preserve">
     <value>Alterado em</value>
   </data>
@@ -560,5 +485,197 @@
   </data>
   <data name="ZipCode" xml:space="preserve">
     <value>CEP</value>
+  </data>
+  <data name="ActionType" xml:space="preserve">
+    <value>Tipo de Ação</value>
+  </data>
+  <data name="AddedDate" xml:space="preserve">
+    <value>Data de Adição</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Informações Básicas</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Lote</value>
+  </data>
+  <data name="Batches" xml:space="preserve">
+    <value>Lotes</value>
+  </data>
+  <data name="CancelledDate" xml:space="preserve">
+    <value>Data de Cancelamento</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="ClosedDate" xml:space="preserve">
+    <value>Data de Fechamento</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>Empresas</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Dados</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="Direct" xml:space="preserve">
+    <value>Direto</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="Expression" xml:space="preserve">
+    <value>Expressão</value>
+  </data>
+  <data name="Expressions" xml:space="preserve">
+    <value>Expressões</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Favorito</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="HasError" xml:space="preserve">
+    <value>Possui Erro</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Cabeçalho</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>Locais</value>
+  </data>
+  <data name="Logs" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Anotações</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Option" xml:space="preserve">
+    <value>Opção</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Ordem</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Pai</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="ProcessedDate" xml:space="preserve">
+    <value>Data de Processamento</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="Providers" xml:space="preserve">
+    <value>Provedores</value>
+  </data>
+  <data name="Queues" xml:space="preserve">
+    <value>Filas</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="Situation" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="Snapshot" xml:space="preserve">
+    <value>Instantâneo</value>
+  </data>
+  <data name="Snapshots" xml:space="preserve">
+    <value>Instantâneos</value>
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Loja</value>
+  </data>
+  <data name="Stores" xml:space="preserve">
+    <value>Lojas</value>
+  </data>
+  <data name="StoreNumber" xml:space="preserve">
+    <value>Número da Loja</value>
+  </data>
+  <data name="StreetAddress" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Validated" xml:space="preserve">
+    <value>Validado</value>
+  </data>
+  <data name="ValidationDate" xml:space="preserve">
+    <value>Data de Validação</value>
+  </data>
+  <data name="Validations" xml:space="preserve">
+    <value>Validações</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="RowsPerPageInfoFormat" xml:space="preserve">
+    <value>{first_item}-{last_item} de {all_items}</value>
+  </data>
+  <data name="PermissionsManagement" xml:space="preserve">
+    <value>Gestão de Permissões</value>
+  </data>
+  <data name="UsersManagement" xml:space="preserve">
+    <value>Gestão de Usuários</value>
   </data>
 </root>

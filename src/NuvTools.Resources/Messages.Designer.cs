@@ -19,7 +19,7 @@ namespace NuvTools.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Messages {
@@ -57,6 +57,15 @@ namespace NuvTools.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to At least one of these parameters should be filled: {0}..
+        /// </summary>
+        public static string AtLeastOneTheseParametersShoudBeFilledX {
+            get {
+                return ResourceManager.GetString("AtLeastOneTheseParametersShoudBeFilledX", resourceCulture);
             }
         }
         
@@ -106,6 +115,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Date {0} must be after date {1}..
+        /// </summary>
+        public static string DateXMustBeAfterDateY {
+            get {
+                return ResourceManager.GetString("DateXMustBeAfterDateY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete Confirmation.
         /// </summary>
         public static string DeleteConfirmation {
@@ -124,11 +142,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please confirm your account by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
+        /// </summary>
+        public static string EmailConfirmationContentWithLinkX {
+            get {
+                return ResourceManager.GetString("EmailConfirmationContentWithLinkX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to E-mail confirmed..
         /// </summary>
         public static string EmailConfirmed {
             get {
                 return ResourceManager.GetString("EmailConfirmed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E-mail {0} is already taken..
+        /// </summary>
+        public static string EmailXAlreadyTaken {
+            get {
+                return ResourceManager.GetString("EmailXAlreadyTaken", resourceCulture);
             }
         }
         
@@ -205,6 +241,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please reset your password by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
+        /// </summary>
+        public static string PasswordResetEmailContentWithLinkX {
+            get {
+                return ResourceManager.GetString("PasswordResetEmailContentWithLinkX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Password Reset Mail was sent..
         /// </summary>
         public static string PasswordResetMailWasSent {
@@ -259,6 +304,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to There is no {0} registered so far..
+        /// </summary>
+        public static string ThereIsNoXRegisteredSoFar {
+            get {
+                return ResourceManager.GetString("ThereIsNoXRegisteredSoFar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm deletion.
         /// </summary>
         public static string ToConfirmDeletion {
@@ -309,6 +363,132 @@ namespace NuvTools.Resources {
         public static string ValueOutsideRange {
             get {
                 return ResourceManager.GetString("ValueOutsideRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome {0}..
+        /// </summary>
+        public static string WelcomeX {
+            get {
+                return ResourceManager.GetString("WelcomeX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} already exists..
+        /// </summary>
+        public static string XAlreadyExists {
+            get {
+                return ResourceManager.GetString("XAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} is invalid..
+        /// </summary>
+        public static string XInvalid {
+            get {
+                return ResourceManager.GetString("XInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must be equal {1}..
+        /// </summary>
+        public static string XMustBeEqualY {
+            get {
+                return ResourceManager.GetString("XMustBeEqualY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must be greater than {1}..
+        /// </summary>
+        public static string XMustBeGreaterThanY {
+            get {
+                return ResourceManager.GetString("XMustBeGreaterThanY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must be less than {1}..
+        /// </summary>
+        public static string XMustBeLessThanY {
+            get {
+                return ResourceManager.GetString("XMustBeLessThanY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain at least {1} capital letter(s)..
+        /// </summary>
+        public static string XMustContainAtLeastYCapitalLetters {
+            get {
+                return ResourceManager.GetString("XMustContainAtLeastYCapitalLetters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain at least {1} digit(s)..
+        /// </summary>
+        public static string XMustContainAtLeastYDigits {
+            get {
+                return ResourceManager.GetString("XMustContainAtLeastYDigits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain at least {1} lower case letter(s)..
+        /// </summary>
+        public static string XMustContainAtLeastYLowerCaseLetters {
+            get {
+                return ResourceManager.GetString("XMustContainAtLeastYLowerCaseLetters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain between {1} and {2} character(s)..
+        /// </summary>
+        public static string XMustContainBetweenYandZCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainBetweenYandZCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must have at least {1} character(s)..
+        /// </summary>
+        public static string XMustHaveAtLeastYCharacters {
+            get {
+                return ResourceManager.GetString("XMustHaveAtLeastYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must have up to {1} character(s)..
+        /// </summary>
+        public static string XMustHaveUpToYCharacters {
+            get {
+                return ResourceManager.GetString("XMustHaveUpToYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} not found..
+        /// </summary>
+        public static string XNotFound {
+            get {
+                return ResourceManager.GetString("XNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} is required..
+        /// </summary>
+        public static string XRequired {
+            get {
+                return ResourceManager.GetString("XRequired", resourceCulture);
             }
         }
     }

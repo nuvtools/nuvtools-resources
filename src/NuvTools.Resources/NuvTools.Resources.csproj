@@ -1,19 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8;net9</TargetFrameworks>
+		<TargetFrameworks>net8;net9;net10.0</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Nuv Tools</Authors>
 		<Copyright>Copyright © 2025 Nuv Tools</Copyright>
 		<PackageProjectUrl>https://nuvtools.com</PackageProjectUrl>
-		<SignAssembly>True</SignAssembly>
-		<AssemblyOriginatorKeyFile>NuvTools.Resources.snk</AssemblyOriginatorKeyFile>
 		<Description>Contains the common resources for using in the libraries and projects of Nuv Tools.</Description>
-		<Version>9.0.1</Version>
+		<Version>10.0.0</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
 		<PackageIcon>icon.png</PackageIcon>
-		<DelaySign>False</DelaySign>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<RepositoryUrl>https://github.com/nuvtools/nuvtools-resources</RepositoryUrl>
@@ -42,8 +39,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Compile Update="DynamicFluentValidationMessages.Designer.cs">
-			<DependentUpon>DynamicFluentValidationMessages.resx</DependentUpon>
+		<Compile Update="Actions.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Actions.resx</DependentUpon>
+		</Compile>
+		<Compile Update="FluentValidationMessages.Designer.cs">
+			<DependentUpon>FluentValidationMessages.resx</DependentUpon>
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
 		</Compile>
@@ -52,20 +54,10 @@
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
 		</Compile>
-		<Compile Update="DynamicFields.Designer.cs">
-			<DependentUpon>DynamicFields.resx</DependentUpon>
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-		</Compile>
 		<Compile Update="Fields.Designer.cs">
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
 			<DependentUpon>Fields.resx</DependentUpon>
-		</Compile>
-		<Compile Update="DynamicMessages.Designer.cs">
-			<DependentUpon>DynamicMessages.resx</DependentUpon>
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
 		</Compile>
 		<Compile Update="Messages.Designer.cs">
 			<DesignTime>True</DesignTime>
@@ -75,19 +67,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Update="DynamicFluentValidationMessages.resx">
-			<LastGenOutput>DynamicFluentValidationMessages.Designer.cs</LastGenOutput>
+		<EmbeddedResource Update="Actions.pt-BR.resx">
+			<Generator></Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Actions.resx">
+			<LastGenOutput>Actions.Designer.cs</LastGenOutput>
 			<Generator>PublicResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
-		<EmbeddedResource Update="DynamicValidationMessages.pt-BR.resx">
-			<Generator></Generator>
+		<EmbeddedResource Update="FluentValidationMessages.resx">
+			<LastGenOutput>FluentValidationMessages.Designer.cs</LastGenOutput>
+			<Generator>PublicResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
 		<EmbeddedResource Update="DynamicValidationMessages.resx">
 			<LastGenOutput>DynamicValidationMessages.Designer.cs</LastGenOutput>
-			<Generator>PublicResXFileCodeGenerator</Generator>
-		</EmbeddedResource>
-		<EmbeddedResource Update="DynamicFields.resx">
-			<LastGenOutput>DynamicFields.Designer.cs</LastGenOutput>
 			<Generator>PublicResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
 		<EmbeddedResource Update="Fields.pt-BR.resx">
@@ -95,10 +87,6 @@
 		</EmbeddedResource>
 		<EmbeddedResource Update="Fields.resx">
 			<LastGenOutput>Fields.Designer.cs</LastGenOutput>
-			<Generator>PublicResXFileCodeGenerator</Generator>
-		</EmbeddedResource>
-		<EmbeddedResource Update="DynamicMessages.resx">
-			<LastGenOutput>DynamicMessages.Designer.cs</LastGenOutput>
 			<Generator>PublicResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
 		<EmbeddedResource Update="Messages.pt-BR.resx">

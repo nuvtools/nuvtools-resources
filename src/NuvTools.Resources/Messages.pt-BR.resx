@@ -171,14 +171,14 @@
   <data name="TokenNotFound" xml:space="preserve">
     <value>Token não encontrado.</value>
   </data>
-  <data name="CancelDeletion" xml:space="preserve">
-    <value>Cancelar exclusão</value>
-  </data>
   <data name="CancelInclusion" xml:space="preserve">
     <value>Cancelar inclusão</value>
   </data>
   <data name="ConfirmInclusion" xml:space="preserve">
     <value>Confirmar inclusão</value>
+  </data>
+  <data name="CancelDeletion" xml:space="preserve">
+    <value>Cancelar exclusão</value>
   </data>
   <data name="ToConfirmDeletion" xml:space="preserve">
     <value>Confirmar exclusão</value>
@@ -200,5 +200,65 @@
   </data>
   <data name="NoneParameterInformed" xml:space="preserve">
     <value>Nenhum parâmetro informado.</value>
+  </data>
+  <data name="EmailConfirmationContentWithLinkX" xml:space="preserve">
+    <value>Confirme sua conta &lt;a href='{0}'&gt;clicando aqui&lt;/a&gt;.</value>
+  </data>
+  <data name="PasswordResetEmailContentWithLinkX" xml:space="preserve">
+    <value>Por favor, redefina sua senha &lt;a href='{0}'&gt;clicando aqui&lt;/a&gt;.</value>
+  </data>
+  <data name="ThereIsNoXRegisteredSoFar" xml:space="preserve">
+    <value>Nenhum(a) {0} cadastrado(a) até o momento.</value>
+  </data>
+  <data name="WelcomeX" xml:space="preserve">
+    <value>Seja bem-vindo(a) {0}.</value>
+  </data>
+  <data name="XAlreadyExists" xml:space="preserve">
+    <value>{0} já existe.</value>
+  </data>
+  <data name="XMustBeEqualY" xml:space="preserve">
+    <value>O(A) {0} deve ser igual ao(à) {1}.</value>
+  </data>
+  <data name="XMustBeGreaterThanY" xml:space="preserve">
+    <value>{0} deve ser maior do que {1}.</value>
+  </data>
+  <data name="XMustBeLessThanY" xml:space="preserve">
+    <value>{0} deve ser menor do que {1}.</value>
+  </data>
+  <data name="XNotFound" xml:space="preserve">
+    <value>{0} não encontrado(a).</value>
+  </data>
+  <data name="XRequired" xml:space="preserve">
+    <value>{0} é obrigatório(a).</value>
+  </data>
+  <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
+    <value>Pelo menos um desses parâmetros deve ser informado: {0}.</value>
+  </data>
+  <data name="DateXMustBeAfterDateY" xml:space="preserve">
+    <value>A data {0} deve ser posterior à data {1}.</value>
+  </data>
+  <data name="EmailXAlreadyTaken" xml:space="preserve">
+    <value>E-mail {0} já em uso.</value>
+  </data>
+  <data name="XInvalid" xml:space="preserve">
+    <value>{0} inválido(a).</value>
+  </data>
+  <data name="XMustContainAtLeastYCapitalLetters" xml:space="preserve">
+    <value>O(A) {0} deve conter pelo menos {1} letra(s) maiúscula(s).</value>
+  </data>
+  <data name="XMustContainAtLeastYDigits" xml:space="preserve">
+    <value>O(A) {0} deve conter pelo menos {1} dígito(s).</value>
+  </data>
+  <data name="XMustContainAtLeastYLowerCaseLetters" xml:space="preserve">
+    <value>O(A) {0} deve conter pelo menos {1} letra(s) minúscula(s).</value>
+  </data>
+  <data name="XMustContainBetweenYandZCharacters" xml:space="preserve">
+    <value>O(A) {0} deve conter entre {1} e {2} caracteres.</value>
+  </data>
+  <data name="XMustHaveAtLeastYCharacters" xml:space="preserve">
+    <value>O(A) {0} deve ter pelo menos {1} caracter(s).</value>
+  </data>
+  <data name="XMustHaveUpToYCharacters" xml:space="preserve">
+    <value>O(A) {0} deve ter até {1} caractere(s).</value>
   </data>
 </root>

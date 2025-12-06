@@ -1,1 +1,0 @@
-nuget.exe push -Source "nuvtools" -ApiKey az NuvTools.Resources.9.0.0.nupkg

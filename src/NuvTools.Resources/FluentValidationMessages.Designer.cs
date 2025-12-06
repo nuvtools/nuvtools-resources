@@ -19,17 +19,17 @@ namespace NuvTools.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class DynamicMessages {
+    public class FluentValidationMessages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal DynamicMessages() {
+        internal FluentValidationMessages() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace NuvTools.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NuvTools.Resources.DynamicMessages", typeof(DynamicMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NuvTools.Resources.FluentValidationMessages", typeof(FluentValidationMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,52 +61,16 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please confirm your account by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
+        ///   Looks up a localized string similar to {PropertyName} is invalid..
         /// </summary>
-        public static string EmailConfirmationContentWithLinkX {
+        public static string XInvalid {
             get {
-                return ResourceManager.GetString("EmailConfirmationContentWithLinkX", resourceCulture);
+                return ResourceManager.GetString("XInvalid", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please reset your password by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
-        /// </summary>
-        public static string PasswordResetEmailContentWithLinkX {
-            get {
-                return ResourceManager.GetString("PasswordResetEmailContentWithLinkX", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to There is no {0} registered so far..
-        /// </summary>
-        public static string ThereIsNoXRegisteredSoFar {
-            get {
-                return ResourceManager.GetString("ThereIsNoXRegisteredSoFar", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Welcome {0}..
-        /// </summary>
-        public static string WelcomeX {
-            get {
-                return ResourceManager.GetString("WelcomeX", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0} already exists..
-        /// </summary>
-        public static string XAlreadyExists {
-            get {
-                return ResourceManager.GetString("XAlreadyExists", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {0} must be equal {1}..
+        ///   Looks up a localized string similar to The {PropertyName} must be equal {ComparisonProperty}..
         /// </summary>
         public static string XMustBeEqualY {
             get {
@@ -115,29 +79,47 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} must be greater than {1}..
+        ///   Looks up a localized string similar to The {PropertyName} must contain at least {MinLength} character(s)..
         /// </summary>
-        public static string XMustBeGreaterThanY {
+        public static string XMustContainAtLeastYCharacters {
             get {
-                return ResourceManager.GetString("XMustBeGreaterThanY", resourceCulture);
+                return ResourceManager.GetString("XMustContainAtLeastYCharacters", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} must be less than {1}..
+        ///   Looks up a localized string similar to The {PropertyName} must contain between {From} and {To} characters..
         /// </summary>
-        public static string XMustBeLessThanY {
+        public static string XMustContainBetweenYandZCharacters {
             get {
-                return ResourceManager.GetString("XMustBeLessThanY", resourceCulture);
+                return ResourceManager.GetString("XMustContainBetweenYandZCharacters", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} not found..
+        ///   Looks up a localized string similar to The {PropertyName} must contain {MinLength} character(s)..
         /// </summary>
-        public static string XNotFound {
+        public static string XMustContainYCharacters {
             get {
-                return ResourceManager.GetString("XNotFound", resourceCulture);
+                return ResourceManager.GetString("XMustContainYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {PropertyName} must be up to {MaxLength} character(s)..
+        /// </summary>
+        public static string XMustHaveUpToYCharacters {
+            get {
+                return ResourceManager.GetString("XMustHaveUpToYCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {PropertyName} is required..
+        /// </summary>
+        public static string XRequired {
+            get {
+                return ResourceManager.GetString("XRequired", resourceCulture);
             }
         }
     }

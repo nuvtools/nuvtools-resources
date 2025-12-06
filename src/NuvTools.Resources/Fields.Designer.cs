@@ -19,7 +19,7 @@ namespace NuvTools.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Fields {
@@ -79,11 +79,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Action.
+        /// </summary>
+        public static string Action {
+            get {
+                return ResourceManager.GetString("Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Actions.
         /// </summary>
         public static string Actions {
             get {
                 return ResourceManager.GetString("Actions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Action Type.
+        /// </summary>
+        public static string ActionType {
+            get {
+                return ResourceManager.GetString("ActionType", resourceCulture);
             }
         }
         
@@ -106,11 +124,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add.
+        ///   Looks up a localized string similar to Added Date.
         /// </summary>
-        public static string Add {
+        public static string AddedDate {
             get {
-                return ResourceManager.GetString("Add", resourceCulture);
+                return ResourceManager.GetString("AddedDate", resourceCulture);
             }
         }
         
@@ -120,6 +138,15 @@ namespace NuvTools.Resources {
         public static string Address {
             get {
                 return ResourceManager.GetString("Address", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All.
+        /// </summary>
+        public static string All {
+            get {
+                return ResourceManager.GetString("All", resourceCulture);
             }
         }
         
@@ -142,11 +169,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Back.
+        ///   Looks up a localized string similar to Basic Information.
         /// </summary>
-        public static string Back {
+        public static string BasicInformation {
             get {
-                return ResourceManager.GetString("Back", resourceCulture);
+                return ResourceManager.GetString("BasicInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Batch.
+        /// </summary>
+        public static string Batch {
+            get {
+                return ResourceManager.GetString("Batch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Batches.
+        /// </summary>
+        public static string Batches {
+            get {
+                return ResourceManager.GetString("Batches", resourceCulture);
             }
         }
         
@@ -178,29 +223,20 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel.
+        ///   Looks up a localized string similar to Cancelled Date.
         /// </summary>
-        public static string Cancel {
+        public static string CancelledDate {
             get {
-                return ResourceManager.GetString("Cancel", resourceCulture);
+                return ResourceManager.GetString("CancelledDate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel inclusion.
+        ///   Looks up a localized string similar to Category.
         /// </summary>
-        public static string CancelInclusion {
+        public static string Category {
             get {
-                return ResourceManager.GetString("CancelInclusion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Change Password.
-        /// </summary>
-        public static string ChangePassword {
-            get {
-                return ResourceManager.GetString("ChangePassword", resourceCulture);
+                return ResourceManager.GetString("Category", resourceCulture);
             }
         }
         
@@ -232,11 +268,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close.
+        ///   Looks up a localized string similar to Closed Date.
         /// </summary>
-        public static string Close {
+        public static string ClosedDate {
             get {
-                return ResourceManager.GetString("Close", resourceCulture);
+                return ResourceManager.GetString("ClosedDate", resourceCulture);
             }
         }
         
@@ -255,6 +291,24 @@ namespace NuvTools.Resources {
         public static string Code {
             get {
                 return ResourceManager.GetString("Code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Color.
+        /// </summary>
+        public static string Color {
+            get {
+                return ResourceManager.GetString("Color", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Companies.
+        /// </summary>
+        public static string Companies {
+            get {
+                return ResourceManager.GetString("Companies", resourceCulture);
             }
         }
         
@@ -286,29 +340,20 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Confirm.
-        /// </summary>
-        public static string Confirm {
-            get {
-                return ResourceManager.GetString("Confirm", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm inclusion.
-        /// </summary>
-        public static string ConfirmInclusion {
-            get {
-                return ResourceManager.GetString("ConfirmInclusion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Confirm New Password.
         /// </summary>
         public static string ConfirmNewPassword {
             get {
                 return ResourceManager.GetString("ConfirmNewPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact.
+        /// </summary>
+        public static string Contact {
+            get {
+                return ResourceManager.GetString("Contact", resourceCulture);
             }
         }
         
@@ -345,6 +390,15 @@ namespace NuvTools.Resources {
         public static string Contracts {
             get {
                 return ResourceManager.GetString("Contracts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cookie.
+        /// </summary>
+        public static string Cookie {
+            get {
+                return ResourceManager.GetString("Cookie", resourceCulture);
             }
         }
         
@@ -394,6 +448,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Data.
+        /// </summary>
+        public static string Data {
+            get {
+                return ResourceManager.GetString("Data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string Date {
@@ -430,15 +493,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete.
-        /// </summary>
-        public static string Delete {
-            get {
-                return ResourceManager.GetString("Delete", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
         public static string Description {
@@ -457,6 +511,33 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Details.
+        /// </summary>
+        public static string Details {
+            get {
+                return ResourceManager.GetString("Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Direct.
+        /// </summary>
+        public static string Direct {
+            get {
+                return ResourceManager.GetString("Direct", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Distance.
+        /// </summary>
+        public static string Distance {
+            get {
+                return ResourceManager.GetString("Distance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to District.
         /// </summary>
         public static string District {
@@ -466,20 +547,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Document.
+        /// </summary>
+        public static string Document {
+            get {
+                return ResourceManager.GetString("Document", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Documents.
+        /// </summary>
+        public static string Documents {
+            get {
+                return ResourceManager.GetString("Documents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Don&apos;t have an account?.
         /// </summary>
         public static string DontHaveAnAccountQuestion {
             get {
                 return ResourceManager.GetString("DontHaveAnAccountQuestion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Edit.
-        /// </summary>
-        public static string Edit {
-            get {
-                return ResourceManager.GetString("Edit", resourceCulture);
             }
         }
         
@@ -574,11 +664,56 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Event.
+        /// </summary>
+        public static string Event {
+            get {
+                return ResourceManager.GetString("Event", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Events.
+        /// </summary>
+        public static string Events {
+            get {
+                return ResourceManager.GetString("Events", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Expire At.
         /// </summary>
         public static string ExpireAt {
             get {
                 return ResourceManager.GetString("ExpireAt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expression.
+        /// </summary>
+        public static string Expression {
+            get {
+                return ResourceManager.GetString("Expression", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expressions.
+        /// </summary>
+        public static string Expressions {
+            get {
+                return ResourceManager.GetString("Expressions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favorite.
+        /// </summary>
+        public static string Favorite {
+            get {
+                return ResourceManager.GetString("Favorite", resourceCulture);
             }
         }
         
@@ -619,6 +754,24 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Filter.
+        /// </summary>
+        public static string Filter {
+            get {
+                return ResourceManager.GetString("Filter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filters.
+        /// </summary>
+        public static string Filters {
+            get {
+                return ResourceManager.GetString("Filters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Forgot password?.
         /// </summary>
         public static string ForgotPasswordQuestion {
@@ -633,6 +786,24 @@ namespace NuvTools.Resources {
         public static string Gender {
             get {
                 return ResourceManager.GetString("Gender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Has Error.
+        /// </summary>
+        public static string HasError {
+            get {
+                return ResourceManager.GetString("HasError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header.
+        /// </summary>
+        public static string Header {
+            get {
+                return ResourceManager.GetString("Header", resourceCulture);
             }
         }
         
@@ -691,11 +862,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Include.
+        ///   Looks up a localized string similar to Inactive.
         /// </summary>
-        public static string Include {
+        public static string Inactive {
             get {
-                return ResourceManager.GetString("Include", resourceCulture);
+                return ResourceManager.GetString("Inactive", resourceCulture);
             }
         }
         
@@ -745,6 +916,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Line.
+        /// </summary>
+        public static string Line {
+            get {
+                return ResourceManager.GetString("Line", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Localidade.
         /// </summary>
         public static string Locality {
@@ -763,11 +943,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Logout.
+        ///   Looks up a localized string similar to Location.
         /// </summary>
-        public static string Logout {
+        public static string Location {
             get {
-                return ResourceManager.GetString("Logout", resourceCulture);
+                return ResourceManager.GetString("Location", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Locations.
+        /// </summary>
+        public static string Locations {
+            get {
+                return ResourceManager.GetString("Locations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Logs.
+        /// </summary>
+        public static string Logs {
+            get {
+                return ResourceManager.GetString("Logs", resourceCulture);
             }
         }
         
@@ -786,33 +984,6 @@ namespace NuvTools.Resources {
         public static string Maintenance {
             get {
                 return ResourceManager.GetString("Maintenance", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Manage.
-        /// </summary>
-        public static string Manage {
-            get {
-                return ResourceManager.GetString("Manage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Manage Permission.
-        /// </summary>
-        public static string ManagePermission {
-            get {
-                return ResourceManager.GetString("ManagePermission", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Manage Users.
-        /// </summary>
-        public static string ManageUsers {
-            get {
-                return ResourceManager.GetString("ManageUsers", resourceCulture);
             }
         }
         
@@ -907,11 +1078,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Note.
         /// </summary>
         public static string Note {
             get {
                 return ResourceManager.GetString("Note", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Notes.
+        /// </summary>
+        public static string Notes {
+            get {
+                return ResourceManager.GetString("Notes", resourceCulture);
             }
         }
         
@@ -925,6 +1114,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Offline.
+        /// </summary>
+        public static string Offline {
+            get {
+                return ResourceManager.GetString("Offline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Old Object.
         /// </summary>
         public static string OldObject {
@@ -934,11 +1132,47 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Online.
+        /// </summary>
+        public static string Online {
+            get {
+                return ResourceManager.GetString("Online", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Operational.
         /// </summary>
         public static string Operational {
             get {
                 return ResourceManager.GetString("Operational", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Option.
+        /// </summary>
+        public static string Option {
+            get {
+                return ResourceManager.GetString("Option", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Options.
+        /// </summary>
+        public static string Options {
+            get {
+                return ResourceManager.GetString("Options", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Order.
+        /// </summary>
+        public static string Order {
+            get {
+                return ResourceManager.GetString("Order", resourceCulture);
             }
         }
         
@@ -966,6 +1200,15 @@ namespace NuvTools.Resources {
         public static string Organizations {
             get {
                 return ResourceManager.GetString("Organizations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Parent.
+        /// </summary>
+        public static string Parent {
+            get {
+                return ResourceManager.GetString("Parent", resourceCulture);
             }
         }
         
@@ -1024,6 +1267,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Permission Management.
+        /// </summary>
+        public static string PermissionsManagement {
+            get {
+                return ResourceManager.GetString("PermissionsManagement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Phone.
         /// </summary>
         public static string Phone {
@@ -1042,11 +1294,47 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Priority.
+        /// </summary>
+        public static string Priority {
+            get {
+                return ResourceManager.GetString("Priority", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Processed Date.
+        /// </summary>
+        public static string ProcessedDate {
+            get {
+                return ResourceManager.GetString("ProcessedDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Profile.
         /// </summary>
         public static string Profile {
             get {
                 return ResourceManager.GetString("Profile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Progress.
+        /// </summary>
+        public static string Progress {
+            get {
+                return ResourceManager.GetString("Progress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Providers.
+        /// </summary>
+        public static string Providers {
+            get {
+                return ResourceManager.GetString("Providers", resourceCulture);
             }
         }
         
@@ -1060,38 +1348,20 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Queues.
+        /// </summary>
+        public static string Queues {
+            get {
+                return ResourceManager.GetString("Queues", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Radius.
         /// </summary>
         public static string Radius {
             get {
                 return ResourceManager.GetString("Radius", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Register.
-        /// </summary>
-        public static string Register {
-            get {
-                return ResourceManager.GetString("Register", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Register here.
-        /// </summary>
-        public static string RegisterHere {
-            get {
-                return ResourceManager.GetString("RegisterHere", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reload.
-        /// </summary>
-        public static string Reload {
-            get {
-                return ResourceManager.GetString("Reload", resourceCulture);
             }
         }
         
@@ -1105,20 +1375,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Replicate.
+        ///   Looks up a localized string similar to Result.
         /// </summary>
-        public static string Replicate {
+        public static string Result {
             get {
-                return ResourceManager.GetString("Replicate", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reset Password.
-        /// </summary>
-        public static string ResetPassword {
-            get {
-                return ResourceManager.GetString("ResetPassword", resourceCulture);
+                return ResourceManager.GetString("Result", resourceCulture);
             }
         }
         
@@ -1150,20 +1411,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save.
+        ///   Looks up a localized string similar to {first_item}-{last_item} of {all_items}.
         /// </summary>
-        public static string Save {
+        public static string RowsPerPageInfoFormat {
             get {
-                return ResourceManager.GetString("Save", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Search.
-        /// </summary>
-        public static string Search {
-            get {
-                return ResourceManager.GetString("Search", resourceCulture);
+                return ResourceManager.GetString("RowsPerPageInfoFormat", resourceCulture);
             }
         }
         
@@ -1177,29 +1429,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show.
+        ///   Looks up a localized string similar to Situation.
         /// </summary>
-        public static string Show {
+        public static string Situation {
             get {
-                return ResourceManager.GetString("Show", resourceCulture);
+                return ResourceManager.GetString("Situation", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sign In.
+        ///   Looks up a localized string similar to Snapshot.
         /// </summary>
-        public static string SignIn {
+        public static string Snapshot {
             get {
-                return ResourceManager.GetString("SignIn", resourceCulture);
+                return ResourceManager.GetString("Snapshot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start.
+        ///   Looks up a localized string similar to Snapshots.
         /// </summary>
-        public static string Start {
+        public static string Snapshots {
             get {
-                return ResourceManager.GetString("Start", resourceCulture);
+                return ResourceManager.GetString("Snapshots", resourceCulture);
             }
         }
         
@@ -1249,6 +1501,42 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Store.
+        /// </summary>
+        public static string Store {
+            get {
+                return ResourceManager.GetString("Store", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Store Number.
+        /// </summary>
+        public static string StoreNumber {
+            get {
+                return ResourceManager.GetString("StoreNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stores.
+        /// </summary>
+        public static string Stores {
+            get {
+                return ResourceManager.GetString("Stores", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Street Address.
+        /// </summary>
+        public static string StreetAddress {
+            get {
+                return ResourceManager.GetString("StreetAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Subject.
         /// </summary>
         public static string Subject {
@@ -1263,6 +1551,24 @@ namespace NuvTools.Resources {
         public static string Surname {
             get {
                 return ResourceManager.GetString("Surname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string Title {
+            get {
+                return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total.
+        /// </summary>
+        public static string Total {
+            get {
+                return ResourceManager.GetString("Total", resourceCulture);
             }
         }
         
@@ -1290,15 +1596,6 @@ namespace NuvTools.Resources {
         public static string UF {
             get {
                 return ResourceManager.GetString("UF", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Update.
-        /// </summary>
-        public static string Update {
-            get {
-                return ResourceManager.GetString("Update", resourceCulture);
             }
         }
         
@@ -1348,6 +1645,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Users Management.
+        /// </summary>
+        public static string UsersManagement {
+            get {
+                return ResourceManager.GetString("UsersManagement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User type.
         /// </summary>
         public static string UserType {
@@ -1357,11 +1663,47 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Validated.
+        /// </summary>
+        public static string Validated {
+            get {
+                return ResourceManager.GetString("Validated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Validation Date.
+        /// </summary>
+        public static string ValidationDate {
+            get {
+                return ResourceManager.GetString("ValidationDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Validations.
+        /// </summary>
+        public static string Validations {
+            get {
+                return ResourceManager.GetString("Validations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Value.
         /// </summary>
         public static string Value {
             get {
                 return ResourceManager.GetString("Value", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verified.
+        /// </summary>
+        public static string Verified {
+            get {
+                return ResourceManager.GetString("Verified", resourceCulture);
             }
         }
         
@@ -1384,7 +1726,16 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Zip code.
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zip Code.
         /// </summary>
         public static string ZipCode {
             get {
