@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Access" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
   <data name="Add" xml:space="preserve">
     <value>Add</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Approve</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Back</value>
@@ -132,8 +141,17 @@
   <data name="ChangePassword" xml:space="preserve">
     <value>Change Password</value>
   </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
   <data name="Close" xml:space="preserve">
     <value>Close</value>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Complete</value>
   </data>
   <data name="Confirm" xml:space="preserve">
     <value>Confirm</value>
@@ -144,11 +162,17 @@
   <data name="Copy" xml:space="preserve">
     <value>Copy</value>
   </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
   <data name="Deactivate" xml:space="preserve">
     <value>Deactivate</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Delete</value>
+  </data>
+  <data name="Deny" xml:space="preserve">
+    <value>Deny</value>
   </data>
   <data name="Download" xml:space="preserve">
     <value>Download</value>
@@ -165,11 +189,17 @@
   <data name="Include" xml:space="preserve">
     <value>Include</value>
   </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Manage</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
   </data>
   <data name="Post" xml:space="preserve">
     <value>Post</value>
@@ -189,14 +219,26 @@
   <data name="Replicate" xml:space="preserve">
     <value>Replicate</value>
   </data>
+  <data name="Resend" xml:space="preserve">
+    <value>Resend</value>
+  </data>
   <data name="ResetPassword" xml:space="preserve">
     <value>Reset Password</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Review</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Save</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
   </data>
   <data name="Send" xml:space="preserve">
     <value>Send</value>
@@ -210,8 +252,14 @@
   <data name="Start" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
   <data name="Update" xml:space="preserve">
     <value>Update</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validate</value>
   </data>
   <data name="View" xml:space="preserve">
     <value>View</value>
