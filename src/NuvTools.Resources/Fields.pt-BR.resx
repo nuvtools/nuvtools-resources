@@ -324,6 +324,9 @@
   <data name="Longitude" xml:space="preserve">
     <value>Longitude</value>
   </data>
+  <data name="MailConfiguration" xml:space="preserve">
+    <value>Configuração de E-mail</value>
+  </data>
   <data name="Maintenance" xml:space="preserve">
     <value>Manutenção</value>
   </data>
@@ -398,6 +401,9 @@
   </data>
   <data name="Phone" xml:space="preserve">
     <value>Telefone</value>
+  </data>
+  <data name="PhysicalFile" xml:space="preserve">
+    <value>Arquivo Físico</value>
   </data>
   <data name="Photo" xml:space="preserve">
     <value>Foto</value>
@@ -681,6 +687,9 @@
   <data name="Abbreviation" xml:space="preserve">
     <value>Abreviação</value>
   </data>
+  <data name="AccessRequest" xml:space="preserve">
+    <value>Solicitação de Acesso</value>
+  </data>
   <data name="Access" xml:space="preserve">
     <value>Acesso</value>
   </data>
@@ -915,6 +924,9 @@
   <data name="ReceiptDate" xml:space="preserve">
     <value>Data de Recebimento</value>
   </data>
+  <data name="Record" xml:space="preserve">
+    <value>Registro</value>
+  </data>
   <data name="Recipient" xml:space="preserve">
     <value>Destinatário</value>
   </data>
@@ -968,6 +980,9 @@
   </data>
   <data name="TaxValue" xml:space="preserve">
     <value>Valor do Imposto</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
   </data>
   <data name="TerminationDate" xml:space="preserve">
     <value>Data de Encerramento</value>

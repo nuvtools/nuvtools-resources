@@ -79,6 +79,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Access Request.
+        /// </summary>
+        public static string AccessRequest {
+            get {
+                return ResourceManager.GetString("AccessRequest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Account.
         /// </summary>
         public static string Account {
@@ -1438,6 +1447,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mail Configuration.
+        /// </summary>
+        public static string MailConfiguration {
+            get {
+                return ResourceManager.GetString("MailConfiguration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Maintenance.
         /// </summary>
         public static string Maintenance {
@@ -1978,6 +1996,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Physical File.
+        /// </summary>
+        public static string PhysicalFile {
+            get {
+                return ResourceManager.GetString("PhysicalFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Previous Data.
         /// </summary>
         public static string PreviousData {
@@ -2100,6 +2127,15 @@ namespace NuvTools.Resources {
         public static string RecipientType {
             get {
                 return ResourceManager.GetString("RecipientType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Record.
+        /// </summary>
+        public static string Record {
+            get {
+                return ResourceManager.GetString("Record", resourceCulture);
             }
         }
         
@@ -2424,6 +2460,15 @@ namespace NuvTools.Resources {
         public static string TaxValue {
             get {
                 return ResourceManager.GetString("TaxValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Template.
+        /// </summary>
+        public static string Template {
+            get {
+                return ResourceManager.GetString("Template", resourceCulture);
             }
         }
         

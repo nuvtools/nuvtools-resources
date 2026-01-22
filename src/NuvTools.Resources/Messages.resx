@@ -261,4 +261,196 @@
   <data name="XMustHaveUpToYCharacters" xml:space="preserve">
     <value>The {0} must have up to {1} character(s).</value>
   </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access denied.</value>
+  </data>
+  <data name="AccessRequestNotFound" xml:space="preserve">
+    <value>Access request not found.</value>
+  </data>
+  <data name="AddXClickingY" xml:space="preserve">
+    <value>Add new {0} by clicking {1}.</value>
+  </data>
+  <data name="AlreadyInList" xml:space="preserve">
+    <value>Already in the list.</value>
+  </data>
+  <data name="CannotDeleteMainAddress" xml:space="preserve">
+    <value>Cannot delete the main address.</value>
+  </data>
+  <data name="CodeExpired" xml:space="preserve">
+    <value>Code expired.</value>
+  </data>
+  <data name="ConfirmActivation" xml:space="preserve">
+    <value>Confirm activation?</value>
+  </data>
+  <data name="ConfirmCancellation" xml:space="preserve">
+    <value>Confirm cancellation?</value>
+  </data>
+  <data name="ConfirmDeactivation" xml:space="preserve">
+    <value>Confirm deactivation?</value>
+  </data>
+  <data name="CouldNotDeleteXExistYAssociated" xml:space="preserve">
+    <value>Could not delete {0}. There are {1} associated.</value>
+  </data>
+  <data name="CouldNotDeleteXVerifyAssociatedData" xml:space="preserve">
+    <value>Could not delete {0}. Verify if there is associated data.</value>
+  </data>
+  <data name="EmailAlreadyRegistered" xml:space="preserve">
+    <value>E-mail already registered.</value>
+  </data>
+  <data name="EmailConfirmationDifferentFromEmail" xml:space="preserve">
+    <value>Email confirmation is different from email.</value>
+  </data>
+  <data name="EmailMustBeConfirmed" xml:space="preserve">
+    <value>E-mail must be confirmed.</value>
+  </data>
+  <data name="EndDateMustBeGreaterThanStartDate" xml:space="preserve">
+    <value>End date must be greater than start date.</value>
+  </data>
+  <data name="ErrorAssociatingProfileToUser" xml:space="preserve">
+    <value>Error associating profile to user.</value>
+  </data>
+  <data name="ErrorInProvidedParameters" xml:space="preserve">
+    <value>Error in provided parameters.</value>
+  </data>
+  <data name="FailedToCreateX" xml:space="preserve">
+    <value>Failed to create {0}.</value>
+  </data>
+  <data name="FailedToDeleteX" xml:space="preserve">
+    <value>Failed to delete {0}.</value>
+  </data>
+  <data name="FailedToGenerateX" xml:space="preserve">
+    <value>Failed to generate {0}.</value>
+  </data>
+  <data name="FailedToUpdateX" xml:space="preserve">
+    <value>Failed to update {0}.</value>
+  </data>
+  <data name="HttpContextNotAvailable" xml:space="preserve">
+    <value>HttpContext is not available.</value>
+  </data>
+  <data name="InactiveUser" xml:space="preserve">
+    <value>Inactive user.</value>
+  </data>
+  <data name="IncorrectFilling" xml:space="preserve">
+    <value>Incorrect filling.</value>
+  </data>
+  <data name="InternalServiceCommunicationError" xml:space="preserve">
+    <value>Internal service communication error.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid credentials.</value>
+  </data>
+  <data name="InvalidExpiredToken" xml:space="preserve">
+    <value>Invalid or expired token.</value>
+  </data>
+  <data name="InvalidFileTypeAcceptedFormatX" xml:space="preserve">
+    <value>Invalid file type. Accepted format: {0}.</value>
+  </data>
+  <data name="InvalidSearch" xml:space="preserve">
+    <value>Invalid search.</value>
+  </data>
+  <data name="InvalidVerificationCode" xml:space="preserve">
+    <value>Invalid verification code.</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>Login successful.</value>
+  </data>
+  <data name="MailConfigurationNotFound" xml:space="preserve">
+    <value>Mail configuration not found.</value>
+  </data>
+  <data name="NameNotFound" xml:space="preserve">
+    <value>Name not found.</value>
+  </data>
+  <data name="NoEmailTemplateFound" xml:space="preserve">
+    <value>No email template found.</value>
+  </data>
+  <data name="NoPermissionToDeleteX" xml:space="preserve">
+    <value>No permission to delete {0}.</value>
+  </data>
+  <data name="PasswordConfirmationDifferentFromPassword" xml:space="preserve">
+    <value>Password confirmation is different from password.</value>
+  </data>
+  <data name="PasswordResetFailed" xml:space="preserve">
+    <value>Password reset failed.</value>
+  </data>
+  <data name="PhysicalFileNotFound" xml:space="preserve">
+    <value>Physical file not found.</value>
+  </data>
+  <data name="ProcessingCompleted" xml:space="preserve">
+    <value>Processing completed.</value>
+  </data>
+  <data name="ProfileNotFound" xml:space="preserve">
+    <value>Profile not found.</value>
+  </data>
+  <data name="ProvideAtLeastOneParameter" xml:space="preserve">
+    <value>Provide at least one parameter.</value>
+  </data>
+  <data name="ProvideAtLeastOneX" xml:space="preserve">
+    <value>Provide at least one {0}.</value>
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Record not found.</value>
+  </data>
+  <data name="ReprocessingCompleted" xml:space="preserve">
+    <value>Reprocessing completed.</value>
+  </data>
+  <data name="RolesNotFound" xml:space="preserve">
+    <value>No roles found matching the criteria.</value>
+  </data>
+  <data name="SearchNoResultsRefineFilters" xml:space="preserve">
+    <value>Search returned no results. Refine your filters.</value>
+  </data>
+  <data name="SelectAProfile" xml:space="preserve">
+    <value>Select a profile.</value>
+  </data>
+  <data name="TemplateAlreadyRegistered" xml:space="preserve">
+    <value>A template with this name already exists.</value>
+  </data>
+  <data name="TemplateNotFound" xml:space="preserve">
+    <value>Template not found.</value>
+  </data>
+  <data name="TextCopied" xml:space="preserve">
+    <value>Text copied.</value>
+  </data>
+  <data name="UploadedFileIsEmpty" xml:space="preserve">
+    <value>The uploaded file is empty.</value>
+  </data>
+  <data name="UserAlreadyHasSystemAccess" xml:space="preserve">
+    <value>User already has system access.</value>
+  </data>
+  <data name="UserCreatedSuccessfully" xml:space="preserve">
+    <value>User created successfully.</value>
+  </data>
+  <data name="UserEmailHasNotBeenConfirmed" xml:space="preserve">
+    <value>User email has not been confirmed.</value>
+  </data>
+  <data name="UserMustBeActive" xml:space="preserve">
+    <value>User must be active.</value>
+  </data>
+  <data name="ValidVerificationCode" xml:space="preserve">
+    <value>Valid verification code.</value>
+  </data>
+  <data name="ViewX" xml:space="preserve">
+    <value>View {0}</value>
+  </data>
+  <data name="XDeletedSuccessfully" xml:space="preserve">
+    <value>{0} deleted successfully.</value>
+  </data>
+  <data name="XIncomplete" xml:space="preserve">
+    <value>{0} incomplete.</value>
+  </data>
+  <data name="XNotProvided" xml:space="preserve">
+    <value>{0} not provided.</value>
+  </data>
+  <data name="XRegisteredSuccessfully" xml:space="preserve">
+    <value>{0} registered successfully.</value>
+  </data>
+  <data name="XUpdatedSuccessfully" xml:space="preserve">
+    <value>{0} updated successfully.</value>
+  </data>
+  <data name="XYSuccess" xml:space="preserve">
+    <value>{0} {1} successfully.</value>
+  </data>
+  <data name="IdObjectNotMatchUrl" xml:space="preserve">
+    <value>The ID in the object does not match the ID in the URL.</value>
+  </data>
 </root>

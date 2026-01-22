@@ -261,4 +261,196 @@
   <data name="XMustHaveUpToYCharacters" xml:space="preserve">
     <value>O(A) {0} deve ter até {1} caractere(s).</value>
   </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Acesso negado.</value>
+  </data>
+  <data name="AccessRequestNotFound" xml:space="preserve">
+    <value>Solicitação de acesso não encontrada.</value>
+  </data>
+  <data name="AddXClickingY" xml:space="preserve">
+    <value>Inclua novos(as) {0} clicando em {1}.</value>
+  </data>
+  <data name="AlreadyInList" xml:space="preserve">
+    <value>Já consta na lista.</value>
+  </data>
+  <data name="CannotDeleteMainAddress" xml:space="preserve">
+    <value>Não é permitido excluir o endereço principal.</value>
+  </data>
+  <data name="CodeExpired" xml:space="preserve">
+    <value>Código expirado.</value>
+  </data>
+  <data name="ConfirmActivation" xml:space="preserve">
+    <value>Confirmar a ativação?</value>
+  </data>
+  <data name="ConfirmCancellation" xml:space="preserve">
+    <value>Confirmar cancelamento?</value>
+  </data>
+  <data name="ConfirmDeactivation" xml:space="preserve">
+    <value>Confirmar a desativação?</value>
+  </data>
+  <data name="CouldNotDeleteXExistYAssociated" xml:space="preserve">
+    <value>Não foi possível excluir {0}. Existem {1} associados(as).</value>
+  </data>
+  <data name="CouldNotDeleteXVerifyAssociatedData" xml:space="preserve">
+    <value>Não foi possível excluir {0}. Verifique se existem dados associados.</value>
+  </data>
+  <data name="EmailAlreadyRegistered" xml:space="preserve">
+    <value>E-mail já cadastrado.</value>
+  </data>
+  <data name="EmailConfirmationDifferentFromEmail" xml:space="preserve">
+    <value>A confirmação do e-mail está diferente do e-mail.</value>
+  </data>
+  <data name="EmailMustBeConfirmed" xml:space="preserve">
+    <value>E-mail precisa estar confirmado.</value>
+  </data>
+  <data name="EndDateMustBeGreaterThanStartDate" xml:space="preserve">
+    <value>A data de término deve ser maior que a data de início.</value>
+  </data>
+  <data name="ErrorAssociatingProfileToUser" xml:space="preserve">
+    <value>Erro ao associar perfil ao usuário.</value>
+  </data>
+  <data name="ErrorInProvidedParameters" xml:space="preserve">
+    <value>Erro nos parâmetros informados.</value>
+  </data>
+  <data name="FailedToCreateX" xml:space="preserve">
+    <value>Falha ao cadastrar {0}.</value>
+  </data>
+  <data name="FailedToDeleteX" xml:space="preserve">
+    <value>Falha ao excluir {0}.</value>
+  </data>
+  <data name="FailedToGenerateX" xml:space="preserve">
+    <value>Falha ao gerar {0}.</value>
+  </data>
+  <data name="FailedToUpdateX" xml:space="preserve">
+    <value>Falha ao atualizar {0}.</value>
+  </data>
+  <data name="HttpContextNotAvailable" xml:space="preserve">
+    <value>HttpContext não está disponível.</value>
+  </data>
+  <data name="InactiveUser" xml:space="preserve">
+    <value>Usuário inativo.</value>
+  </data>
+  <data name="IncorrectFilling" xml:space="preserve">
+    <value>Preenchimento incorreto.</value>
+  </data>
+  <data name="InternalServiceCommunicationError" xml:space="preserve">
+    <value>Erro na comunicação com o serviço interno.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Credenciais inválidas.</value>
+  </data>
+  <data name="InvalidExpiredToken" xml:space="preserve">
+    <value>Token inválido ou expirado.</value>
+  </data>
+  <data name="InvalidFileTypeAcceptedFormatX" xml:space="preserve">
+    <value>Tipo de arquivo inválido. Formato aceito: {0}.</value>
+  </data>
+  <data name="InvalidSearch" xml:space="preserve">
+    <value>Pesquisa inválida.</value>
+  </data>
+  <data name="InvalidVerificationCode" xml:space="preserve">
+    <value>Código de verificação inválido.</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>Login bem sucedido.</value>
+  </data>
+  <data name="MailConfigurationNotFound" xml:space="preserve">
+    <value>Configuração de e-mail não encontrada.</value>
+  </data>
+  <data name="NameNotFound" xml:space="preserve">
+    <value>Nome não encontrado.</value>
+  </data>
+  <data name="NoEmailTemplateFound" xml:space="preserve">
+    <value>Nenhum modelo de e-mail encontrado.</value>
+  </data>
+  <data name="NoPermissionToDeleteX" xml:space="preserve">
+    <value>Sem permissão para excluir {0}.</value>
+  </data>
+  <data name="PasswordConfirmationDifferentFromPassword" xml:space="preserve">
+    <value>A confirmação da senha está diferente da senha.</value>
+  </data>
+  <data name="PasswordResetFailed" xml:space="preserve">
+    <value>Falha ao redefinir senha.</value>
+  </data>
+  <data name="PhysicalFileNotFound" xml:space="preserve">
+    <value>Arquivo físico não encontrado.</value>
+  </data>
+  <data name="ProcessingCompleted" xml:space="preserve">
+    <value>Processamento concluído.</value>
+  </data>
+  <data name="ProfileNotFound" xml:space="preserve">
+    <value>Perfil não encontrado.</value>
+  </data>
+  <data name="ProvideAtLeastOneParameter" xml:space="preserve">
+    <value>Informe pelo menos um parâmetro.</value>
+  </data>
+  <data name="ProvideAtLeastOneX" xml:space="preserve">
+    <value>Informe pelo menos um(a) {0}.</value>
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Registro não encontrado.</value>
+  </data>
+  <data name="ReprocessingCompleted" xml:space="preserve">
+    <value>Reprocessamento concluído.</value>
+  </data>
+  <data name="RolesNotFound" xml:space="preserve">
+    <value>Nenhuma permissão encontrada que corresponda aos critérios.</value>
+  </data>
+  <data name="SearchNoResultsRefineFilters" xml:space="preserve">
+    <value>Pesquisa sem resultado. Redefina os filtros.</value>
+  </data>
+  <data name="SelectAProfile" xml:space="preserve">
+    <value>Selecione um perfil.</value>
+  </data>
+  <data name="TemplateAlreadyRegistered" xml:space="preserve">
+    <value>Já existe um template cadastrado com esse nome.</value>
+  </data>
+  <data name="TemplateNotFound" xml:space="preserve">
+    <value>Template não encontrado.</value>
+  </data>
+  <data name="TextCopied" xml:space="preserve">
+    <value>Texto copiado.</value>
+  </data>
+  <data name="UploadedFileIsEmpty" xml:space="preserve">
+    <value>O arquivo enviado está vazio.</value>
+  </data>
+  <data name="UserAlreadyHasSystemAccess" xml:space="preserve">
+    <value>Usuário já possui acesso ao sistema.</value>
+  </data>
+  <data name="UserCreatedSuccessfully" xml:space="preserve">
+    <value>Usuário cadastrado com sucesso.</value>
+  </data>
+  <data name="UserEmailHasNotBeenConfirmed" xml:space="preserve">
+    <value>E-mail do usuário não foi confirmado.</value>
+  </data>
+  <data name="UserMustBeActive" xml:space="preserve">
+    <value>Usuário precisa estar ativo.</value>
+  </data>
+  <data name="ValidVerificationCode" xml:space="preserve">
+    <value>Código de verificação válido.</value>
+  </data>
+  <data name="ViewX" xml:space="preserve">
+    <value>Ver {0}</value>
+  </data>
+  <data name="XDeletedSuccessfully" xml:space="preserve">
+    <value>{0} excluído(a) com sucesso.</value>
+  </data>
+  <data name="XIncomplete" xml:space="preserve">
+    <value>{0} incompleto(a).</value>
+  </data>
+  <data name="XNotProvided" xml:space="preserve">
+    <value>{0} não informado(a).</value>
+  </data>
+  <data name="XRegisteredSuccessfully" xml:space="preserve">
+    <value>{0} cadastrado(a) com sucesso.</value>
+  </data>
+  <data name="XUpdatedSuccessfully" xml:space="preserve">
+    <value>{0} atualizado(a) com sucesso.</value>
+  </data>
+  <data name="XYSuccess" xml:space="preserve">
+    <value>{0} {1} com sucesso.</value>
+  </data>
+  <data name="IdObjectNotMatchUrl" xml:space="preserve">
+    <value>O ID no objeto não corresponde ao ID no URL.</value>
+  </data>
 </root>
