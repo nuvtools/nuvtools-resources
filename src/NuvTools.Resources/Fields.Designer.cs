@@ -484,7 +484,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Conteúdo.
+        ///   Looks up a localized string similar to Content.
         /// </summary>
         public static string Content {
             get {
@@ -610,7 +610,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Data e Hora de Envio.
+        ///   Looks up a localized string similar to Date/Time Sent.
         /// </summary>
         public static string DateTimeSent {
             get {
@@ -1384,7 +1384,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Localidade.
+        ///   Looks up a localized string similar to Locality.
         /// </summary>
         public static string Locality {
             get {
@@ -1447,7 +1447,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mensagem.
+        ///   Looks up a localized string similar to Message.
         /// </summary>
         public static string Message {
             get {
@@ -2536,7 +2536,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Alterado em.
+        ///   Looks up a localized string similar to Updated At.
         /// </summary>
         public static string UpdatedAt {
             get {
@@ -2545,7 +2545,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Alterado por.
+        ///   Looks up a localized string similar to Updated By.
         /// </summary>
         public static string UpdatedBy {
             get {

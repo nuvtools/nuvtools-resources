@@ -181,7 +181,7 @@
     <value>Confirm New Password</value>
   </data>
   <data name="Content" xml:space="preserve">
-    <value>Conteúdo</value>
+    <value>Content</value>
   </data>
   <data name="Contract" xml:space="preserve">
     <value>Contract</value>
@@ -214,7 +214,7 @@
     <value>Date/Time</value>
   </data>
   <data name="DateTimeSent" xml:space="preserve">
-    <value>Data e Hora de Envio</value>
+    <value>Date/Time Sent</value>
   </data>
   <data name="Day" xml:space="preserve">
     <value>Day</value>
@@ -316,7 +316,7 @@
     <value>Latitude</value>
   </data>
   <data name="Locality" xml:space="preserve">
-    <value>Localidade</value>
+    <value>Locality</value>
   </data>
   <data name="Localization" xml:space="preserve">
     <value>Localization</value>
@@ -328,7 +328,7 @@
     <value>Maintenance</value>
   </data>
   <data name="Message" xml:space="preserve">
-    <value>Mensagem</value>
+    <value>Message</value>
   </data>
   <data name="Minute" xml:space="preserve">
     <value>Minute</value>
@@ -457,10 +457,10 @@
     <value>UF</value>
   </data>
   <data name="UpdatedAt" xml:space="preserve">
-    <value>Alterado em</value>
+    <value>Updated At</value>
   </data>
   <data name="UpdatedBy" xml:space="preserve">
-    <value>Alterado por</value>
+    <value>Updated By</value>
   </data>
   <data name="Url" xml:space="preserve">
     <value>Url</value>
