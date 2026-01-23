@@ -1011,4 +1011,88 @@
   <data name="VerificationCode" xml:space="preserve">
     <value>Código de Verificação</value>
   </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Atributo</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="CloseDate" xml:space="preserve">
+    <value>Data de Fechamento</value>
+  </data>
+  <data name="ComingSoon" xml:space="preserve">
+    <value>Em Breve</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="FaxNumber" xml:space="preserve">
+    <value>Número do Fax</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Trabalho</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>Trabalhos</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Nome da Máquina</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Correio</value>
+  </data>
+  <data name="ManuallyAdded" xml:space="preserve">
+    <value>Adicionado Manualmente</value>
+  </data>
+  <data name="MaximalSize" xml:space="preserve">
+    <value>Tamanho Máximo</value>
+  </data>
+  <data name="MinimalSize" xml:space="preserve">
+    <value>Tamanho Mínimo</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Diversos</value>
+  </data>
+  <data name="MoreFilters" xml:space="preserve">
+    <value>Mais Filtros</value>
+  </data>
+  <data name="NAICS" xml:space="preserve">
+    <value>NAICS</value>
+  </data>
+  <data name="OpenDate" xml:space="preserve">
+    <value>Data de Abertura</value>
+  </data>
+  <data name="Percentile" xml:space="preserve">
+    <value>Percentil</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Número de Telefone</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="Relocation" xml:space="preserve">
+    <value>Realocação</value>
+  </data>
+  <data name="Reprocess" xml:space="preserve">
+    <value>Reprocessar</value>
+  </data>
+  <data name="ScheduleFrequency" xml:space="preserve">
+    <value>Frequência de Agendamento</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="SIC" xml:space="preserve">
+    <value>SIC</value>
+  </data>
+  <data name="StateName" xml:space="preserve">
+    <value>Nome do Estado</value>
+  </data>
+  <data name="StockTicker" xml:space="preserve">
+    <value>Código de Ação</value>
+  </data>
 </root>

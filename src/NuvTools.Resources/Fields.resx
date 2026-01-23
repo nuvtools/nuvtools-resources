@@ -1011,4 +1011,88 @@
   <data name="VerificationCode" xml:space="preserve">
     <value>Verification Code</value>
   </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseDate" xml:space="preserve">
+    <value>Close Date</value>
+  </data>
+  <data name="ComingSoon" xml:space="preserve">
+    <value>Coming Soon</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="FaxNumber" xml:space="preserve">
+    <value>Fax Number</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Machine Name</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="ManuallyAdded" xml:space="preserve">
+    <value>Manually Added</value>
+  </data>
+  <data name="MaximalSize" xml:space="preserve">
+    <value>Maximal Size</value>
+  </data>
+  <data name="MinimalSize" xml:space="preserve">
+    <value>Minimal Size</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="MoreFilters" xml:space="preserve">
+    <value>More Filters</value>
+  </data>
+  <data name="NAICS" xml:space="preserve">
+    <value>NAICS</value>
+  </data>
+  <data name="OpenDate" xml:space="preserve">
+    <value>Open Date</value>
+  </data>
+  <data name="Percentile" xml:space="preserve">
+    <value>Percentile</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Relocation" xml:space="preserve">
+    <value>Relocation</value>
+  </data>
+  <data name="Reprocess" xml:space="preserve">
+    <value>Reprocess</value>
+  </data>
+  <data name="ScheduleFrequency" xml:space="preserve">
+    <value>Schedule Frequency</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SIC" xml:space="preserve">
+    <value>SIC</value>
+  </data>
+  <data name="StateName" xml:space="preserve">
+    <value>State Name</value>
+  </data>
+  <data name="StockTicker" xml:space="preserve">
+    <value>Stock Ticker</value>
+  </data>
 </root>
