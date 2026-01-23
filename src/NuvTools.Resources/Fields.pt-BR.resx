@@ -1095,4 +1095,16 @@
   <data name="StockTicker" xml:space="preserve">
     <value>Código de Ação</value>
   </data>
+  <data name="RequestDateTime" xml:space="preserve">
+    <value>Data/Hora da Requisição</value>
+  </data>
+  <data name="ResponseDateTime" xml:space="preserve">
+    <value>Data/Hora da Resposta</value>
+  </data>
+  <data name="StepOrder" xml:space="preserve">
+    <value>Ordem do Passo</value>
+  </data>
+  <data name="TargetType" xml:space="preserve">
+    <value>Tipo de Alvo</value>
+  </data>
 </root>

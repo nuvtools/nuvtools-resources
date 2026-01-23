@@ -2392,6 +2392,24 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Request Date/Time.
+        /// </summary>
+        public static string RequestDateTime {
+            get {
+                return ResourceManager.GetString("RequestDateTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Response Date/Time.
+        /// </summary>
+        public static string ResponseDateTime {
+            get {
+                return ResourceManager.GetString("ResponseDateTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Result.
         /// </summary>
         public static string Result {
@@ -2626,6 +2644,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Step Order.
+        /// </summary>
+        public static string StepOrder {
+            get {
+                return ResourceManager.GetString("StepOrder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Stock Ticker.
         /// </summary>
         public static string StockTicker {
@@ -2703,6 +2730,15 @@ namespace NuvTools.Resources {
         public static string Surname {
             get {
                 return ResourceManager.GetString("Surname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Target Type.
+        /// </summary>
+        public static string TargetType {
+            get {
+                return ResourceManager.GetString("TargetType", resourceCulture);
             }
         }
         
