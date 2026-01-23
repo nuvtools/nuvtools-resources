@@ -9,7 +9,7 @@ A comprehensive localization library providing common UI resources (fields, acti
 
 - **Bilingual Support**: English and Portuguese (pt-BR)
 - **Four Resource Types**: Actions, Fields, Messages, and FluentValidation Messages
-- **243+ Localized Resources**: 33 actions, 162 fields, 48 messages
+- **257+ Localized Resources**: 33 actions, 162 fields, 62 messages
 - **Strongly-Typed Access**: Static properties with compile-time safety
 - **ResourceManager Support**: Runtime key lookup for dynamic scenarios
 - **.NET Multi-targeting**: Supports .NET 8, 9, and 10
@@ -18,6 +18,8 @@ A comprehensive localization library providing common UI resources (fields, acti
 ## What's New in v10.0.0
 
 - **Actions Resources Separated**: Action verbs (Add, Edit, Delete, Save, etc.) moved from Fields to dedicated Actions.resx for better organization
+- **Messages Cleanup**: Removed 51 redundant messages that can be replaced by parameterized templates (e.g., use `XNotFound` with parameter instead of `UserNotFound`, `TokenNotFound`, etc.)
+- **New Template Messages**: Added `ConfirmX` template for generic confirmations
 - **Enhanced Documentation**: Interactive dictionary pages for browsing all resources with translations
 - **Modern Solution Format**: Using .slnx (XML-based) solution file format
 
@@ -62,13 +64,14 @@ var addressLabel = Fields.Address;        // "Address" / "Logradouro"
 ```
 
 ### Messages
-User-facing notifications and messages (48 resources)
+User-facing notifications and validation messages (62 resources)
 
 ```csharp
 using NuvTools.Resources;
 
-var successMsg = Messages.Success;        // "Success!" / "Sucesso!"
-var confirmMsg = Messages.ConfirmDeletion; // "Confirm the deletion?" / "Confirmar a exclusão?"
+var successMsg = Messages.OperationPerformedSuccessfully;  // "Operation performed successfully."
+var notFoundMsg = string.Format(Messages.XNotFound, "User"); // "User not found."
+var confirmMsg = string.Format(Messages.ConfirmX, "deletion"); // "Confirm deletion?"
 ```
 
 ### FluentValidation Messages
@@ -158,7 +161,7 @@ Browse searchable dictionaries with all available resources and their English/Po
 |------------|-----------|-------------|
 | **[Actions](docs/ACTIONS.md)** | 33 | Action verbs and commands (Add, Edit, Delete, Save, Search, etc.) |
 | **[Fields](docs/FIELDS.md)** | 162 | Form field labels and UI elements (Account, Name, Email, Address, etc.) |
-| **[Messages](docs/MESSAGES.md)** | 48 | User messages and notifications (Success, Error, Confirmations, etc.) |
+| **[Messages](docs/MESSAGES.md)** | 62 | User messages and validation templates (XNotFound, XInvalid, XRequired, etc.) |
 
 These dictionaries are perfect for:
 - Finding the right resource key before coding

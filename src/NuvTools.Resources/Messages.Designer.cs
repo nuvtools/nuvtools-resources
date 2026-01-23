@@ -70,29 +70,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Access request not found..
-        /// </summary>
-        public static string AccessRequestNotFound {
-            get {
-                return ResourceManager.GetString("AccessRequestNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Add new {0} by clicking {1}..
         /// </summary>
         public static string AddXClickingY {
             get {
                 return ResourceManager.GetString("AddXClickingY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Already in the list..
-        /// </summary>
-        public static string AlreadyInList {
-            get {
-                return ResourceManager.GetString("AlreadyInList", resourceCulture);
             }
         }
         
@@ -106,33 +88,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel deletion.
-        /// </summary>
-        public static string CancelDeletion {
-            get {
-                return ResourceManager.GetString("CancelDeletion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cancel inclusion.
-        /// </summary>
-        public static string CancelInclusion {
-            get {
-                return ResourceManager.GetString("CancelInclusion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot delete the main address..
-        /// </summary>
-        public static string CannotDeleteMainAddress {
-            get {
-                return ResourceManager.GetString("CannotDeleteMainAddress", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Code expired..
         /// </summary>
         public static string CodeExpired {
@@ -142,56 +97,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Confirm activation?.
+        ///   Looks up a localized string similar to Confirm {0}?.
         /// </summary>
-        public static string ConfirmActivation {
+        public static string ConfirmX {
             get {
-                return ResourceManager.GetString("ConfirmActivation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm cancellation?.
-        /// </summary>
-        public static string ConfirmCancellation {
-            get {
-                return ResourceManager.GetString("ConfirmCancellation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm deactivation?.
-        /// </summary>
-        public static string ConfirmDeactivation {
-            get {
-                return ResourceManager.GetString("ConfirmDeactivation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm the deletion?.
-        /// </summary>
-        public static string ConfirmDeletion {
-            get {
-                return ResourceManager.GetString("ConfirmDeletion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm inclusion.
-        /// </summary>
-        public static string ConfirmInclusion {
-            get {
-                return ResourceManager.GetString("ConfirmInclusion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm registration.
-        /// </summary>
-        public static string ConfirmRegistration {
-            get {
-                return ResourceManager.GetString("ConfirmRegistration", resourceCulture);
+                return ResourceManager.GetString("ConfirmX", resourceCulture);
             }
         }
         
@@ -223,47 +133,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete Confirmation.
-        /// </summary>
-        public static string DeleteConfirmation {
-            get {
-                return ResourceManager.GetString("DeleteConfirmation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Do you really logout?.
-        /// </summary>
-        public static string DoYouReallyLogout {
-            get {
-                return ResourceManager.GetString("DoYouReallyLogout", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to E-mail already registered..
-        /// </summary>
-        public static string EmailAlreadyRegistered {
-            get {
-                return ResourceManager.GetString("EmailAlreadyRegistered", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Please confirm your account by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
         /// </summary>
         public static string EmailConfirmationContentWithLinkX {
             get {
                 return ResourceManager.GetString("EmailConfirmationContentWithLinkX", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Email confirmation is different from email..
-        /// </summary>
-        public static string EmailConfirmationDifferentFromEmail {
-            get {
-                return ResourceManager.GetString("EmailConfirmationDifferentFromEmail", resourceCulture);
             }
         }
         
@@ -300,24 +174,6 @@ namespace NuvTools.Resources {
         public static string EndDateMustBeGreaterThanStartDate {
             get {
                 return ResourceManager.GetString("EndDateMustBeGreaterThanStartDate", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enter your search.
-        /// </summary>
-        public static string EnterYourSearch {
-            get {
-                return ResourceManager.GetString("EnterYourSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error associating profile to user..
-        /// </summary>
-        public static string ErrorAssociatingProfileToUser {
-            get {
-                return ResourceManager.GetString("ErrorAssociatingProfileToUser", resourceCulture);
             }
         }
         
@@ -367,24 +223,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Go home.
-        /// </summary>
-        public static string GoHome {
-            get {
-                return ResourceManager.GetString("GoHome", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to HttpContext is not available..
-        /// </summary>
-        public static string HttpContextNotAvailable {
-            get {
-                return ResourceManager.GetString("HttpContextNotAvailable", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to The ID in the object does not match the ID in the URL..
         /// </summary>
         public static string IdObjectNotMatchUrl {
@@ -399,42 +237,6 @@ namespace NuvTools.Resources {
         public static string InactiveUser {
             get {
                 return ResourceManager.GetString("InactiveUser", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Incorrect filling..
-        /// </summary>
-        public static string IncorrectFilling {
-            get {
-                return ResourceManager.GetString("IncorrectFilling", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Internal service communication error..
-        /// </summary>
-        public static string InternalServiceCommunicationError {
-            get {
-                return ResourceManager.GetString("InternalServiceCommunicationError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid credentials..
-        /// </summary>
-        public static string InvalidCredentials {
-            get {
-                return ResourceManager.GetString("InvalidCredentials", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid e-mail..
-        /// </summary>
-        public static string InvalidEmail {
-            get {
-                return ResourceManager.GetString("InvalidEmail", resourceCulture);
             }
         }
         
@@ -457,74 +259,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Invalid search..
-        /// </summary>
-        public static string InvalidSearch {
-            get {
-                return ResourceManager.GetString("InvalidSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid value..
-        /// </summary>
-        public static string InvalidValue {
-            get {
-                return ResourceManager.GetString("InvalidValue", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid verification code..
-        /// </summary>
-        public static string InvalidVerificationCode {
-            get {
-                return ResourceManager.GetString("InvalidVerificationCode", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Login successful..
         /// </summary>
         public static string LoginSuccessful {
             get {
                 return ResourceManager.GetString("LoginSuccessful", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Logout Confirmation.
-        /// </summary>
-        public static string LogoutConfirmation {
-            get {
-                return ResourceManager.GetString("LogoutConfirmation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Mail configuration not found..
-        /// </summary>
-        public static string MailConfigurationNotFound {
-            get {
-                return ResourceManager.GetString("MailConfigurationNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Name not found..
-        /// </summary>
-        public static string NameNotFound {
-            get {
-                return ResourceManager.GetString("NameNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No email template found..
-        /// </summary>
-        public static string NoEmailTemplateFound {
-            get {
-                return ResourceManager.GetString("NoEmailTemplateFound", resourceCulture);
             }
         }
         
@@ -565,15 +304,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Password confirmation is different from password..
-        /// </summary>
-        public static string PasswordConfirmationDifferentFromPassword {
-            get {
-                return ResourceManager.GetString("PasswordConfirmationDifferentFromPassword", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Please reset your password by &lt;a href=&apos;{0}&apos;&gt;clicking here&lt;/a&gt;..
         /// </summary>
         public static string PasswordResetEmailContentWithLinkX {
@@ -610,29 +340,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Physical file not found..
-        /// </summary>
-        public static string PhysicalFileNotFound {
-            get {
-                return ResourceManager.GetString("PhysicalFileNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Processing completed..
         /// </summary>
         public static string ProcessingCompleted {
             get {
                 return ResourceManager.GetString("ProcessingCompleted", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Profile not found..
-        /// </summary>
-        public static string ProfileNotFound {
-            get {
-                return ResourceManager.GetString("ProfileNotFound", resourceCulture);
             }
         }
         
@@ -655,87 +367,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Record not found..
-        /// </summary>
-        public static string RecordNotFound {
-            get {
-                return ResourceManager.GetString("RecordNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reprocessing completed..
-        /// </summary>
-        public static string ReprocessingCompleted {
-            get {
-                return ResourceManager.GetString("ReprocessingCompleted", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Role already exists..
-        /// </summary>
-        public static string RoleAlreadyExists {
-            get {
-                return ResourceManager.GetString("RoleAlreadyExists", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No roles found matching the criteria..
-        /// </summary>
-        public static string RolesNotFound {
-            get {
-                return ResourceManager.GetString("RolesNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Roles registered.
-        /// </summary>
-        public static string RolesRegistered {
-            get {
-                return ResourceManager.GetString("RolesRegistered", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Search returned no results. Refine your filters..
-        /// </summary>
-        public static string SearchNoResultsRefineFilters {
-            get {
-                return ResourceManager.GetString("SearchNoResultsRefineFilters", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Select a profile..
-        /// </summary>
-        public static string SelectAProfile {
-            get {
-                return ResourceManager.GetString("SelectAProfile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to A template with this name already exists..
-        /// </summary>
-        public static string TemplateAlreadyRegistered {
-            get {
-                return ResourceManager.GetString("TemplateAlreadyRegistered", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Template not found..
-        /// </summary>
-        public static string TemplateNotFound {
-            get {
-                return ResourceManager.GetString("TemplateNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Text copied..
         /// </summary>
         public static string TextCopied {
@@ -754,15 +385,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The page you were looking for doesn&apos;t exist..
-        /// </summary>
-        public static string ThePageYouWereLookingForDoesntExist {
-            get {
-                return ResourceManager.GetString("ThePageYouWereLookingForDoesntExist", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to There is no {0} registered so far..
         /// </summary>
         public static string ThereIsNoXRegisteredSoFar {
@@ -772,83 +394,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Confirm deletion.
-        /// </summary>
-        public static string ToConfirmDeletion {
-            get {
-                return ResourceManager.GetString("ToConfirmDeletion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Token not found..
-        /// </summary>
-        public static string TokenNotFound {
-            get {
-                return ResourceManager.GetString("TokenNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to The uploaded file is empty..
         /// </summary>
         public static string UploadedFileIsEmpty {
             get {
                 return ResourceManager.GetString("UploadedFileIsEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User already has system access..
-        /// </summary>
-        public static string UserAlreadyHasSystemAccess {
-            get {
-                return ResourceManager.GetString("UserAlreadyHasSystemAccess", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User created successfully..
-        /// </summary>
-        public static string UserCreatedSuccessfully {
-            get {
-                return ResourceManager.GetString("UserCreatedSuccessfully", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User email has not been confirmed..
-        /// </summary>
-        public static string UserEmailHasNotBeenConfirmed {
-            get {
-                return ResourceManager.GetString("UserEmailHasNotBeenConfirmed", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User must be active..
-        /// </summary>
-        public static string UserMustBeActive {
-            get {
-                return ResourceManager.GetString("UserMustBeActive", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User not found..
-        /// </summary>
-        public static string UserNotFound {
-            get {
-                return ResourceManager.GetString("UserNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Users registered.
-        /// </summary>
-        public static string UsersRegistered {
-            get {
-                return ResourceManager.GetString("UsersRegistered", resourceCulture);
             }
         }
         

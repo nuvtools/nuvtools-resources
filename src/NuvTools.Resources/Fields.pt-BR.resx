@@ -1032,12 +1032,6 @@
   <data name="Region" xml:space="preserve">
     <value>Região</value>
   </data>
-  <data name="ScheduleFrequency" xml:space="preserve">
-    <value>Frequência de Agendamento</value>
-  </data>
-  <data name="Search" xml:space="preserve">
-    <value>Pesquisar</value>
-  </data>
   <data name="SIC" xml:space="preserve">
     <value>SIC</value>
   </data>

@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,32 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ConfirmRegistration" xml:space="preserve">
-    <value>Confirm registration</value>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access denied.</value>
   </data>
-  <data name="ConfirmDeletion" xml:space="preserve">
-    <value>Confirm the deletion?</value>
+  <data name="AddXClickingY" xml:space="preserve">
+    <value>Add new {0} by clicking {1}.</value>
   </data>
-  <data name="DeleteConfirmation" xml:space="preserve">
-    <value>Delete Confirmation</value>
+  <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
+    <value>At least one of these parameters should be filled: {0}.</value>
   </data>
-  <data name="DoYouReallyLogout" xml:space="preserve">
-    <value>Do you really logout?</value>
+  <data name="CodeExpired" xml:space="preserve">
+    <value>Code expired.</value>
   </data>
-  <data name="EnterYourSearch" xml:space="preserve">
-    <value>Enter your search</value>
+  <data name="ConfirmX" xml:space="preserve">
+    <value>Confirm {0}?</value>
   </data>
-  <data name="GoHome" xml:space="preserve">
-    <value>Go home</value>
+  <data name="CouldNotDeleteXExistYAssociated" xml:space="preserve">
+    <value>Could not delete {0}. There are {1} associated.</value>
   </data>
-  <data name="InvalidEmail" xml:space="preserve">
-    <value>Invalid e-mail.</value>
+  <data name="CouldNotDeleteXVerifyAssociatedData" xml:space="preserve">
+    <value>Could not delete {0}. Verify if there is associated data.</value>
   </data>
-  <data name="InvalidValue" xml:space="preserve">
-    <value>Invalid value.</value>
+  <data name="DateXMustBeAfterDateY" xml:space="preserve">
+    <value>Date {0} must be after date {1}.</value>
   </data>
-  <data name="LogoutConfirmation" xml:space="preserve">
-    <value>Logout Confirmation</value>
+  <data name="EmailConfirmationContentWithLinkX" xml:space="preserve">
+    <value>Please confirm your account by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>E-mail confirmed.</value>
+  </data>
+  <data name="EmailMustBeConfirmed" xml:space="preserve">
+    <value>E-mail must be confirmed.</value>
+  </data>
+  <data name="EmailXAlreadyTaken" xml:space="preserve">
+    <value>E-mail {0} is already taken.</value>
+  </data>
+  <data name="EndDateMustBeGreaterThanStartDate" xml:space="preserve">
+    <value>End date must be greater than start date.</value>
+  </data>
+  <data name="ErrorInProvidedParameters" xml:space="preserve">
+    <value>Error in provided parameters.</value>
+  </data>
+  <data name="FailedToCreateX" xml:space="preserve">
+    <value>Failed to create {0}.</value>
+  </data>
+  <data name="FailedToDeleteX" xml:space="preserve">
+    <value>Failed to delete {0}.</value>
+  </data>
+  <data name="FailedToGenerateX" xml:space="preserve">
+    <value>Failed to generate {0}.</value>
+  </data>
+  <data name="FailedToUpdateX" xml:space="preserve">
+    <value>Failed to update {0}.</value>
+  </data>
+  <data name="IdObjectNotMatchUrl" xml:space="preserve">
+    <value>The ID in the object does not match the ID in the URL.</value>
+  </data>
+  <data name="InactiveUser" xml:space="preserve">
+    <value>Inactive user.</value>
+  </data>
+  <data name="InvalidExpiredToken" xml:space="preserve">
+    <value>Invalid or expired token.</value>
+  </data>
+  <data name="InvalidFileTypeAcceptedFormatX" xml:space="preserve">
+    <value>Invalid file type. Accepted format: {0}.</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>Login successful.</value>
+  </data>
+  <data name="NoneParameterInformed" xml:space="preserve">
+    <value>None parameter informed.</value>
+  </data>
+  <data name="NoPermissionToDeleteX" xml:space="preserve">
+    <value>No permission to delete {0}.</value>
   </data>
   <data name="NotAllowed" xml:space="preserve">
     <value>Not Allowed.</value>
@@ -150,17 +198,11 @@
   <data name="OperationPerformedSuccessfully" xml:space="preserve">
     <value>Operation performed successfully.</value>
   </data>
-  <data name="TheOperationCouldNotBePerformed" xml:space="preserve">
-    <value>The operation could not be performed.</value>
+  <data name="PasswordResetEmailContentWithLinkX" xml:space="preserve">
+    <value>Please reset your password by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
   </data>
-  <data name="ThePageYouWereLookingForDoesntExist" xml:space="preserve">
-    <value>The page you were looking for doesn't exist.</value>
-  </data>
-  <data name="ValueOutsideRange" xml:space="preserve">
-    <value>Value outside range</value>
-  </data>
-  <data name="EmailConfirmed" xml:space="preserve">
-    <value>E-mail confirmed.</value>
+  <data name="PasswordResetFailed" xml:space="preserve">
+    <value>Password reset failed.</value>
   </data>
   <data name="PasswordResetMailWasSent" xml:space="preserve">
     <value>Password Reset Mail was sent.</value>
@@ -168,53 +210,53 @@
   <data name="PasswordResetSuccessful" xml:space="preserve">
     <value>Password Reset Successful!</value>
   </data>
-  <data name="TokenNotFound" xml:space="preserve">
-    <value>Token not found.</value>
+  <data name="ProcessingCompleted" xml:space="preserve">
+    <value>Processing completed.</value>
   </data>
-  <data name="CancelInclusion" xml:space="preserve">
-    <value>Cancel inclusion</value>
+  <data name="ProvideAtLeastOneParameter" xml:space="preserve">
+    <value>Provide at least one parameter.</value>
   </data>
-  <data name="ConfirmInclusion" xml:space="preserve">
-    <value>Confirm inclusion</value>
+  <data name="ProvideAtLeastOneX" xml:space="preserve">
+    <value>Provide at least one {0}.</value>
   </data>
-  <data name="CancelDeletion" xml:space="preserve">
-    <value>Cancel deletion</value>
+  <data name="TextCopied" xml:space="preserve">
+    <value>Text copied.</value>
   </data>
-  <data name="ToConfirmDeletion" xml:space="preserve">
-    <value>Confirm deletion</value>
+  <data name="TheOperationCouldNotBePerformed" xml:space="preserve">
+    <value>The operation could not be performed.</value>
   </data>
-  <data name="RoleAlreadyExists" xml:space="preserve">
-    <value>Role already exists.</value>
+  <data name="ThereIsNoXRegisteredSoFar" xml:space="preserve">
+    <value>There is no {0} registered so far.</value>
   </data>
-  <data name="RolesRegistered" xml:space="preserve">
-    <value>Roles registered</value>
-  </data>
-  <data name="UserNotFound" xml:space="preserve">
-    <value>User not found.</value>
-  </data>
-  <data name="UsersRegistered" xml:space="preserve">
-    <value>Users registered</value>
+  <data name="UploadedFileIsEmpty" xml:space="preserve">
+    <value>The uploaded file is empty.</value>
   </data>
   <data name="ValidationProblemsFound" xml:space="preserve">
     <value>Validation problems were found.</value>
   </data>
-  <data name="NoneParameterInformed" xml:space="preserve">
-    <value>None parameter informed.</value>
+  <data name="ValidVerificationCode" xml:space="preserve">
+    <value>Valid verification code.</value>
   </data>
-  <data name="EmailConfirmationContentWithLinkX" xml:space="preserve">
-    <value>Please confirm your account by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
+  <data name="ValueOutsideRange" xml:space="preserve">
+    <value>Value outside range</value>
   </data>
-  <data name="PasswordResetEmailContentWithLinkX" xml:space="preserve">
-    <value>Please reset your password by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
-  </data>
-  <data name="ThereIsNoXRegisteredSoFar" xml:space="preserve">
-    <value>There is no {0} registered so far.</value>
+  <data name="ViewX" xml:space="preserve">
+    <value>View {0}</value>
   </data>
   <data name="WelcomeX" xml:space="preserve">
     <value>Welcome {0}.</value>
   </data>
   <data name="XAlreadyExists" xml:space="preserve">
     <value>{0} already exists.</value>
+  </data>
+  <data name="XDeletedSuccessfully" xml:space="preserve">
+    <value>{0} deleted successfully.</value>
+  </data>
+  <data name="XIncomplete" xml:space="preserve">
+    <value>{0} incomplete.</value>
+  </data>
+  <data name="XInvalid" xml:space="preserve">
+    <value>{0} is invalid.</value>
   </data>
   <data name="XMustBeEqualY" xml:space="preserve">
     <value>The {0} must be equal {1}.</value>
@@ -224,24 +266,6 @@
   </data>
   <data name="XMustBeLessThanY" xml:space="preserve">
     <value>{0} must be less than {1}.</value>
-  </data>
-  <data name="XNotFound" xml:space="preserve">
-    <value>{0} not found.</value>
-  </data>
-  <data name="XRequired" xml:space="preserve">
-    <value>{0} is required.</value>
-  </data>
-  <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
-    <value>At least one of these parameters should be filled: {0}.</value>
-  </data>
-  <data name="DateXMustBeAfterDateY" xml:space="preserve">
-    <value>Date {0} must be after date {1}.</value>
-  </data>
-  <data name="EmailXAlreadyTaken" xml:space="preserve">
-    <value>E-mail {0} is already taken.</value>
-  </data>
-  <data name="XInvalid" xml:space="preserve">
-    <value>{0} is invalid.</value>
   </data>
   <data name="XMustContainAtLeastYCapitalLetters" xml:space="preserve">
     <value>The {0} must contain at least {1} capital letter(s).</value>
@@ -261,182 +285,8 @@
   <data name="XMustHaveUpToYCharacters" xml:space="preserve">
     <value>The {0} must have up to {1} character(s).</value>
   </data>
-  <data name="AccessDenied" xml:space="preserve">
-    <value>Access denied.</value>
-  </data>
-  <data name="AccessRequestNotFound" xml:space="preserve">
-    <value>Access request not found.</value>
-  </data>
-  <data name="AddXClickingY" xml:space="preserve">
-    <value>Add new {0} by clicking {1}.</value>
-  </data>
-  <data name="AlreadyInList" xml:space="preserve">
-    <value>Already in the list.</value>
-  </data>
-  <data name="CannotDeleteMainAddress" xml:space="preserve">
-    <value>Cannot delete the main address.</value>
-  </data>
-  <data name="CodeExpired" xml:space="preserve">
-    <value>Code expired.</value>
-  </data>
-  <data name="ConfirmActivation" xml:space="preserve">
-    <value>Confirm activation?</value>
-  </data>
-  <data name="ConfirmCancellation" xml:space="preserve">
-    <value>Confirm cancellation?</value>
-  </data>
-  <data name="ConfirmDeactivation" xml:space="preserve">
-    <value>Confirm deactivation?</value>
-  </data>
-  <data name="CouldNotDeleteXExistYAssociated" xml:space="preserve">
-    <value>Could not delete {0}. There are {1} associated.</value>
-  </data>
-  <data name="CouldNotDeleteXVerifyAssociatedData" xml:space="preserve">
-    <value>Could not delete {0}. Verify if there is associated data.</value>
-  </data>
-  <data name="EmailAlreadyRegistered" xml:space="preserve">
-    <value>E-mail already registered.</value>
-  </data>
-  <data name="EmailConfirmationDifferentFromEmail" xml:space="preserve">
-    <value>Email confirmation is different from email.</value>
-  </data>
-  <data name="EmailMustBeConfirmed" xml:space="preserve">
-    <value>E-mail must be confirmed.</value>
-  </data>
-  <data name="EndDateMustBeGreaterThanStartDate" xml:space="preserve">
-    <value>End date must be greater than start date.</value>
-  </data>
-  <data name="ErrorAssociatingProfileToUser" xml:space="preserve">
-    <value>Error associating profile to user.</value>
-  </data>
-  <data name="ErrorInProvidedParameters" xml:space="preserve">
-    <value>Error in provided parameters.</value>
-  </data>
-  <data name="FailedToCreateX" xml:space="preserve">
-    <value>Failed to create {0}.</value>
-  </data>
-  <data name="FailedToDeleteX" xml:space="preserve">
-    <value>Failed to delete {0}.</value>
-  </data>
-  <data name="FailedToGenerateX" xml:space="preserve">
-    <value>Failed to generate {0}.</value>
-  </data>
-  <data name="FailedToUpdateX" xml:space="preserve">
-    <value>Failed to update {0}.</value>
-  </data>
-  <data name="HttpContextNotAvailable" xml:space="preserve">
-    <value>HttpContext is not available.</value>
-  </data>
-  <data name="InactiveUser" xml:space="preserve">
-    <value>Inactive user.</value>
-  </data>
-  <data name="IncorrectFilling" xml:space="preserve">
-    <value>Incorrect filling.</value>
-  </data>
-  <data name="InternalServiceCommunicationError" xml:space="preserve">
-    <value>Internal service communication error.</value>
-  </data>
-  <data name="InvalidCredentials" xml:space="preserve">
-    <value>Invalid credentials.</value>
-  </data>
-  <data name="InvalidExpiredToken" xml:space="preserve">
-    <value>Invalid or expired token.</value>
-  </data>
-  <data name="InvalidFileTypeAcceptedFormatX" xml:space="preserve">
-    <value>Invalid file type. Accepted format: {0}.</value>
-  </data>
-  <data name="InvalidSearch" xml:space="preserve">
-    <value>Invalid search.</value>
-  </data>
-  <data name="InvalidVerificationCode" xml:space="preserve">
-    <value>Invalid verification code.</value>
-  </data>
-  <data name="LoginSuccessful" xml:space="preserve">
-    <value>Login successful.</value>
-  </data>
-  <data name="MailConfigurationNotFound" xml:space="preserve">
-    <value>Mail configuration not found.</value>
-  </data>
-  <data name="NameNotFound" xml:space="preserve">
-    <value>Name not found.</value>
-  </data>
-  <data name="NoEmailTemplateFound" xml:space="preserve">
-    <value>No email template found.</value>
-  </data>
-  <data name="NoPermissionToDeleteX" xml:space="preserve">
-    <value>No permission to delete {0}.</value>
-  </data>
-  <data name="PasswordConfirmationDifferentFromPassword" xml:space="preserve">
-    <value>Password confirmation is different from password.</value>
-  </data>
-  <data name="PasswordResetFailed" xml:space="preserve">
-    <value>Password reset failed.</value>
-  </data>
-  <data name="PhysicalFileNotFound" xml:space="preserve">
-    <value>Physical file not found.</value>
-  </data>
-  <data name="ProcessingCompleted" xml:space="preserve">
-    <value>Processing completed.</value>
-  </data>
-  <data name="ProfileNotFound" xml:space="preserve">
-    <value>Profile not found.</value>
-  </data>
-  <data name="ProvideAtLeastOneParameter" xml:space="preserve">
-    <value>Provide at least one parameter.</value>
-  </data>
-  <data name="ProvideAtLeastOneX" xml:space="preserve">
-    <value>Provide at least one {0}.</value>
-  </data>
-  <data name="RecordNotFound" xml:space="preserve">
-    <value>Record not found.</value>
-  </data>
-  <data name="ReprocessingCompleted" xml:space="preserve">
-    <value>Reprocessing completed.</value>
-  </data>
-  <data name="RolesNotFound" xml:space="preserve">
-    <value>No roles found matching the criteria.</value>
-  </data>
-  <data name="SearchNoResultsRefineFilters" xml:space="preserve">
-    <value>Search returned no results. Refine your filters.</value>
-  </data>
-  <data name="SelectAProfile" xml:space="preserve">
-    <value>Select a profile.</value>
-  </data>
-  <data name="TemplateAlreadyRegistered" xml:space="preserve">
-    <value>A template with this name already exists.</value>
-  </data>
-  <data name="TemplateNotFound" xml:space="preserve">
-    <value>Template not found.</value>
-  </data>
-  <data name="TextCopied" xml:space="preserve">
-    <value>Text copied.</value>
-  </data>
-  <data name="UploadedFileIsEmpty" xml:space="preserve">
-    <value>The uploaded file is empty.</value>
-  </data>
-  <data name="UserAlreadyHasSystemAccess" xml:space="preserve">
-    <value>User already has system access.</value>
-  </data>
-  <data name="UserCreatedSuccessfully" xml:space="preserve">
-    <value>User created successfully.</value>
-  </data>
-  <data name="UserEmailHasNotBeenConfirmed" xml:space="preserve">
-    <value>User email has not been confirmed.</value>
-  </data>
-  <data name="UserMustBeActive" xml:space="preserve">
-    <value>User must be active.</value>
-  </data>
-  <data name="ValidVerificationCode" xml:space="preserve">
-    <value>Valid verification code.</value>
-  </data>
-  <data name="ViewX" xml:space="preserve">
-    <value>View {0}</value>
-  </data>
-  <data name="XDeletedSuccessfully" xml:space="preserve">
-    <value>{0} deleted successfully.</value>
-  </data>
-  <data name="XIncomplete" xml:space="preserve">
-    <value>{0} incomplete.</value>
+  <data name="XNotFound" xml:space="preserve">
+    <value>{0} not found.</value>
   </data>
   <data name="XNotProvided" xml:space="preserve">
     <value>{0} not provided.</value>
@@ -444,13 +294,13 @@
   <data name="XRegisteredSuccessfully" xml:space="preserve">
     <value>{0} registered successfully.</value>
   </data>
+  <data name="XRequired" xml:space="preserve">
+    <value>{0} is required.</value>
+  </data>
   <data name="XUpdatedSuccessfully" xml:space="preserve">
     <value>{0} updated successfully.</value>
   </data>
   <data name="XYSuccess" xml:space="preserve">
     <value>{0} {1} successfully.</value>
-  </data>
-  <data name="IdObjectNotMatchUrl" xml:space="preserve">
-    <value>The ID in the object does not match the ID in the URL.</value>
   </data>
 </root>
