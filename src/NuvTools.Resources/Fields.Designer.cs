@@ -250,24 +250,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Batch.
-        /// </summary>
-        public static string Batch {
-            get {
-                return ResourceManager.GetString("Batch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Batches.
-        /// </summary>
-        public static string Batches {
-            get {
-                return ResourceManager.GetString("Batches", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Billing.
         /// </summary>
         public static string Billing {
@@ -426,15 +408,6 @@ namespace NuvTools.Resources {
         public static string Color {
             get {
                 return ResourceManager.GetString("Color", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Coming Soon.
-        /// </summary>
-        public static string ComingSoon {
-            get {
-                return ResourceManager.GetString("ComingSoon", resourceCulture);
             }
         }
         
@@ -709,15 +682,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Direct.
-        /// </summary>
-        public static string Direct {
-            get {
-                return ResourceManager.GetString("Direct", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Disabled.
         /// </summary>
         public static string Disabled {
@@ -984,24 +948,6 @@ namespace NuvTools.Resources {
         public static string ExpiresAt {
             get {
                 return ResourceManager.GetString("ExpiresAt", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Expression.
-        /// </summary>
-        public static string Expression {
-            get {
-                return ResourceManager.GetString("Expression", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Expressions.
-        /// </summary>
-        public static string Expressions {
-            get {
-                return ResourceManager.GetString("Expressions", resourceCulture);
             }
         }
         
@@ -1528,15 +1474,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Machine Name.
-        /// </summary>
-        public static string MachineName {
-            get {
-                return ResourceManager.GetString("MachineName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Mail.
         /// </summary>
         public static string Mail {
@@ -1560,15 +1497,6 @@ namespace NuvTools.Resources {
         public static string Maintenance {
             get {
                 return ResourceManager.GetString("Maintenance", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Manually Added.
-        /// </summary>
-        public static string ManuallyAdded {
-            get {
-                return ResourceManager.GetString("ManuallyAdded", resourceCulture);
             }
         }
         
@@ -2095,15 +2023,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Percentile.
-        /// </summary>
-        public static string Percentile {
-            get {
-                return ResourceManager.GetString("Percentile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Period.
         /// </summary>
         public static string Period {
@@ -2365,47 +2284,11 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Relocation.
-        /// </summary>
-        public static string Relocation {
-            get {
-                return ResourceManager.GetString("Relocation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Remember me?.
         /// </summary>
         public static string RememberMeQuestion {
             get {
                 return ResourceManager.GetString("RememberMeQuestion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reprocess.
-        /// </summary>
-        public static string Reprocess {
-            get {
-                return ResourceManager.GetString("Reprocess", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Request Date/Time.
-        /// </summary>
-        public static string RequestDateTime {
-            get {
-                return ResourceManager.GetString("RequestDateTime", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Response Date/Time.
-        /// </summary>
-        public static string ResponseDateTime {
-            get {
-                return ResourceManager.GetString("ResponseDateTime", resourceCulture);
             }
         }
         
@@ -2563,24 +2446,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Snapshot.
-        /// </summary>
-        public static string Snapshot {
-            get {
-                return ResourceManager.GetString("Snapshot", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Snapshots.
-        /// </summary>
-        public static string Snapshots {
-            get {
-                return ResourceManager.GetString("Snapshots", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Source IP.
         /// </summary>
         public static string SourceIp {
@@ -2644,51 +2509,6 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Step Order.
-        /// </summary>
-        public static string StepOrder {
-            get {
-                return ResourceManager.GetString("StepOrder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stock Ticker.
-        /// </summary>
-        public static string StockTicker {
-            get {
-                return ResourceManager.GetString("StockTicker", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Store.
-        /// </summary>
-        public static string Store {
-            get {
-                return ResourceManager.GetString("Store", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Store Number.
-        /// </summary>
-        public static string StoreNumber {
-            get {
-                return ResourceManager.GetString("StoreNumber", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stores.
-        /// </summary>
-        public static string Stores {
-            get {
-                return ResourceManager.GetString("Stores", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Street Address.
         /// </summary>
         public static string StreetAddress {
@@ -2730,15 +2550,6 @@ namespace NuvTools.Resources {
         public static string Surname {
             get {
                 return ResourceManager.GetString("Surname", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Target Type.
-        /// </summary>
-        public static string TargetType {
-            get {
-                return ResourceManager.GetString("TargetType", resourceCulture);
             }
         }
         

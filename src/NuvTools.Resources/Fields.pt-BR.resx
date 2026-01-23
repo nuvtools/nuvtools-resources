@@ -504,12 +504,6 @@
   <data name="BasicInformation" xml:space="preserve">
     <value>Informações Básicas</value>
   </data>
-  <data name="Batch" xml:space="preserve">
-    <value>Lote</value>
-  </data>
-  <data name="Batches" xml:space="preserve">
-    <value>Lotes</value>
-  </data>
   <data name="CancelledDate" xml:space="preserve">
     <value>Data de Cancelamento</value>
   </data>
@@ -537,9 +531,6 @@
   <data name="Details" xml:space="preserve">
     <value>Detalhes</value>
   </data>
-  <data name="Direct" xml:space="preserve">
-    <value>Direto</value>
-  </data>
   <data name="Distance" xml:space="preserve">
     <value>Distância</value>
   </data>
@@ -554,12 +545,6 @@
   </data>
   <data name="Events" xml:space="preserve">
     <value>Eventos</value>
-  </data>
-  <data name="Expression" xml:space="preserve">
-    <value>Expressão</value>
-  </data>
-  <data name="Expressions" xml:space="preserve">
-    <value>Expressões</value>
   </data>
   <data name="Favorite" xml:space="preserve">
     <value>Favorito</value>
@@ -635,21 +620,6 @@
   </data>
   <data name="Situation" xml:space="preserve">
     <value>Situação</value>
-  </data>
-  <data name="Snapshot" xml:space="preserve">
-    <value>Instantâneo</value>
-  </data>
-  <data name="Snapshots" xml:space="preserve">
-    <value>Instantâneos</value>
-  </data>
-  <data name="Store" xml:space="preserve">
-    <value>Loja</value>
-  </data>
-  <data name="Stores" xml:space="preserve">
-    <value>Lojas</value>
-  </data>
-  <data name="StoreNumber" xml:space="preserve">
-    <value>Número da Loja</value>
   </data>
   <data name="StreetAddress" xml:space="preserve">
     <value>Logradouro</value>
@@ -1020,9 +990,6 @@
   <data name="CloseDate" xml:space="preserve">
     <value>Data de Fechamento</value>
   </data>
-  <data name="ComingSoon" xml:space="preserve">
-    <value>Em Breve</value>
-  </data>
   <data name="Fax" xml:space="preserve">
     <value>Fax</value>
   </data>
@@ -1038,14 +1005,8 @@
   <data name="Jobs" xml:space="preserve">
     <value>Trabalhos</value>
   </data>
-  <data name="MachineName" xml:space="preserve">
-    <value>Nome da Máquina</value>
-  </data>
   <data name="Mail" xml:space="preserve">
     <value>Correio</value>
-  </data>
-  <data name="ManuallyAdded" xml:space="preserve">
-    <value>Adicionado Manualmente</value>
   </data>
   <data name="MaximalSize" xml:space="preserve">
     <value>Tamanho Máximo</value>
@@ -1065,20 +1026,11 @@
   <data name="OpenDate" xml:space="preserve">
     <value>Data de Abertura</value>
   </data>
-  <data name="Percentile" xml:space="preserve">
-    <value>Percentil</value>
-  </data>
   <data name="PhoneNumber" xml:space="preserve">
     <value>Número de Telefone</value>
   </data>
   <data name="Region" xml:space="preserve">
     <value>Região</value>
-  </data>
-  <data name="Relocation" xml:space="preserve">
-    <value>Realocação</value>
-  </data>
-  <data name="Reprocess" xml:space="preserve">
-    <value>Reprocessar</value>
   </data>
   <data name="ScheduleFrequency" xml:space="preserve">
     <value>Frequência de Agendamento</value>
@@ -1091,20 +1043,5 @@
   </data>
   <data name="StateName" xml:space="preserve">
     <value>Nome do Estado</value>
-  </data>
-  <data name="StockTicker" xml:space="preserve">
-    <value>Código de Ação</value>
-  </data>
-  <data name="RequestDateTime" xml:space="preserve">
-    <value>Data/Hora da Requisição</value>
-  </data>
-  <data name="ResponseDateTime" xml:space="preserve">
-    <value>Data/Hora da Resposta</value>
-  </data>
-  <data name="StepOrder" xml:space="preserve">
-    <value>Ordem do Passo</value>
-  </data>
-  <data name="TargetType" xml:space="preserve">
-    <value>Tipo de Alvo</value>
   </data>
 </root>
