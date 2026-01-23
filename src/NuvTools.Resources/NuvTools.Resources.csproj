@@ -6,7 +6,7 @@
 		<Authors>Nuv Tools</Authors>
 		<Copyright>Copyright © 2026 Nuv Tools</Copyright>
 		<PackageProjectUrl>https://nuvtools.com</PackageProjectUrl>
-		<Description>Contains the common resources for using in the libraries and projects of Nuv Tools.</Description>
+		<Description>Bilingual localization library (English/Portuguese) with 257+ resources: actions, fields, and parameterized message templates for .NET applications.</Description>
 		<Version>10.1.0</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
@@ -17,7 +17,7 @@
 		<RepositoryType>git</RepositoryType>
 		<AnalysisLevel>latest</AnalysisLevel>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageTags>Nuv Tools Resources English Portuguese Fields Messages</PackageTags>
+		<PackageTags>localization;i18n;resources;resx;english;portuguese;pt-br;validation;messages;fluentvalidation;blazor;aspnetcore</PackageTags>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
