@@ -126,6 +126,9 @@
   <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
     <value>At least one of these parameters should be filled: {0}.</value>
   </data>
+  <data name="CancelDeletion" xml:space="preserve">
+    <value>Cancel Deletion</value>
+  </data>
   <data name="CodeExpired" xml:space="preserve">
     <value>Code expired.</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="DateXMustBeAfterDateY" xml:space="preserve">
     <value>Date {0} must be after date {1}.</value>
+  </data>
+  <data name="DoYouReallyLogout" xml:space="preserve">
+    <value>Do you really want to logout?</value>
   </data>
   <data name="EmailConfirmationContentWithLinkX" xml:space="preserve">
     <value>Please confirm your account by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;.</value>
@@ -186,6 +192,9 @@
   <data name="LoginSuccessful" xml:space="preserve">
     <value>Login successful.</value>
   </data>
+  <data name="LogoutConfirmation" xml:space="preserve">
+    <value>Logout Confirmation</value>
+  </data>
   <data name="NoneParameterInformed" xml:space="preserve">
     <value>None parameter informed.</value>
   </data>
@@ -227,6 +236,9 @@
   </data>
   <data name="ThereIsNoXRegisteredSoFar" xml:space="preserve">
     <value>There is no {0} registered so far.</value>
+  </data>
+  <data name="ToConfirmDeletion" xml:space="preserve">
+    <value>To confirm deletion</value>
   </data>
   <data name="UploadedFileIsEmpty" xml:space="preserve">
     <value>The uploaded file is empty.</value>

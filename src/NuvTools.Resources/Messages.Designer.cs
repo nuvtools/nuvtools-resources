@@ -88,6 +88,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel Deletion.
+        /// </summary>
+        public static string CancelDeletion {
+            get {
+                return ResourceManager.GetString("CancelDeletion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Code expired..
         /// </summary>
         public static string CodeExpired {
@@ -129,6 +138,15 @@ namespace NuvTools.Resources {
         public static string DateXMustBeAfterDateY {
             get {
                 return ResourceManager.GetString("DateXMustBeAfterDateY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you really want to logout?.
+        /// </summary>
+        public static string DoYouReallyLogout {
+            get {
+                return ResourceManager.GetString("DoYouReallyLogout", resourceCulture);
             }
         }
         
@@ -268,6 +286,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Logout Confirmation.
+        /// </summary>
+        public static string LogoutConfirmation {
+            get {
+                return ResourceManager.GetString("LogoutConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to None parameter informed..
         /// </summary>
         public static string NoneParameterInformed {
@@ -390,6 +417,15 @@ namespace NuvTools.Resources {
         public static string ThereIsNoXRegisteredSoFar {
             get {
                 return ResourceManager.GetString("ThereIsNoXRegisteredSoFar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To confirm deletion.
+        /// </summary>
+        public static string ToConfirmDeletion {
+            get {
+                return ResourceManager.GetString("ToConfirmDeletion", resourceCulture);
             }
         }
         

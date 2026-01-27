@@ -2,7 +2,7 @@
 
 User-facing messages, notifications, and validation templates.
 
-**Total Resources:** 62
+**Total Resources:** 66
 
 **Usage:**
 ```csharp
@@ -74,7 +74,9 @@ Direct messages without parameters.
 | Key | English | Portuguese (pt-BR) |
 |-----|---------|-------------------|
 | AccessDenied | Access denied. | Acesso negado. |
+| CancelDeletion | Cancel Deletion | Cancelar Exclusão |
 | CodeExpired | Code expired. | Código expirado. |
+| DoYouReallyLogout | Do you really want to logout? | Deseja realmente sair? |
 | EmailConfirmed | E-mail confirmed. | E-mail confirmado. |
 | EmailMustBeConfirmed | E-mail must be confirmed. | E-mail precisa estar confirmado. |
 | EndDateMustBeGreaterThanStartDate | End date must be greater than start date. | A data de término deve ser maior que a data de início. |
@@ -83,6 +85,7 @@ Direct messages without parameters.
 | InactiveUser | Inactive user. | Usuário inativo. |
 | InvalidExpiredToken | Invalid or expired token. | Token inválido ou expirado. |
 | LoginSuccessful | Login successful. | Login bem sucedido. |
+| LogoutConfirmation | Logout Confirmation | Confirmação de Saída |
 | NoneParameterInformed | None parameter informed. | Nenhum parâmetro informado. |
 | NotAllowed | Not Allowed. | Não permitido. |
 | OperationPerformedSuccessfully | Operation performed successfully. | Operação realizada com sucesso. |
@@ -93,6 +96,7 @@ Direct messages without parameters.
 | ProvideAtLeastOneParameter | Provide at least one parameter. | Informe pelo menos um parâmetro. |
 | TextCopied | Text copied. | Texto copiado. |
 | TheOperationCouldNotBePerformed | The operation could not be performed. | Não foi possível realizar a operação. |
+| ToConfirmDeletion | To confirm deletion | Para confirmar a exclusão |
 | UploadedFileIsEmpty | The uploaded file is empty. | O arquivo enviado está vazio. |
 | ValidationProblemsFound | Validation problems were found. | Problemas de validação encontrados. |
 | ValidVerificationCode | Valid verification code. | Código de verificação válido. |
