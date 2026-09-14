@@ -6,8 +6,8 @@
 		<Authors>Nuv Tools</Authors>
 		<Copyright>Copyright © 2026 Nuv Tools</Copyright>
 		<PackageProjectUrl>https://nuvtools.com</PackageProjectUrl>
-		<Description>Bilingual localization library (English/Portuguese) with 257+ resources: actions, fields, and parameterized message templates for .NET applications.</Description>
-		<Version>10.1.1</Version>
+		<Description>Bilingual localization library (English/Portuguese) with 470+ resources: actions, fields, and parameterized message templates for .NET applications.</Description>
+		<Version>10.1.2</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
 		<PackageIcon>icon.png</PackageIcon>

@@ -123,11 +123,17 @@
   <data name="AddXClickingY" xml:space="preserve">
     <value>Inclua novos(as) {0} clicando em {1}.</value>
   </data>
+  <data name="AndXMore" xml:space="preserve">
+    <value>e mais {0}</value>
+  </data>
+  <data name="AtLeastOneOfTheseParametersShouldBeFilledX" xml:space="preserve">
+    <value>Pelo menos um desses parâmetros deve ser informado: {0}.</value>
+  </data>
   <data name="AtLeastOneTheseParametersShoudBeFilledX" xml:space="preserve">
     <value>Pelo menos um desses parâmetros deve ser informado: {0}.</value>
   </data>
   <data name="CancelDeletion" xml:space="preserve">
-    <value>Cancelar Exclusão</value>
+    <value>Cancelar exclusão</value>
   </data>
   <data name="CodeExpired" xml:space="preserve">
     <value>Código expirado.</value>
@@ -135,17 +141,38 @@
   <data name="ConfirmX" xml:space="preserve">
     <value>Confirmar {0}?</value>
   </data>
+  <data name="ConfirmYouAreNotARobot" xml:space="preserve">
+    <value>Confirme que você não é um robô antes de continuar.</value>
+  </data>
+  <data name="CouldNotCommunicateWithX" xml:space="preserve">
+    <value>Não foi possível se comunicar com {0}.</value>
+  </data>
+  <data name="CouldNotCopy" xml:space="preserve">
+    <value>Não foi possível copiar automaticamente. Selecione o texto e copie manualmente.</value>
+  </data>
   <data name="CouldNotDeleteXExistYAssociated" xml:space="preserve">
     <value>Não foi possível excluir {0}. Existem {1} associados(as).</value>
   </data>
   <data name="CouldNotDeleteXVerifyAssociatedData" xml:space="preserve">
     <value>Não foi possível excluir {0}. Verifique se existem dados associados.</value>
   </data>
+  <data name="CreatedOnXByY" xml:space="preserve">
+    <value>Criado(a) em {0} por {1}.</value>
+  </data>
   <data name="DateXMustBeAfterDateY" xml:space="preserve">
     <value>A data {0} deve ser posterior à data {1}.</value>
   </data>
+  <data name="DateXMustBeOnOrAfterDateY" xml:space="preserve">
+    <value>A data {0} deve ser igual ou posterior à data {1}.</value>
+  </data>
+  <data name="DeleteXQuestion" xml:space="preserve">
+    <value>Excluir {0}?</value>
+  </data>
   <data name="DoYouReallyLogout" xml:space="preserve">
     <value>Deseja realmente sair?</value>
+  </data>
+  <data name="DuplicateValuesX" xml:space="preserve">
+    <value>Valores repetidos: {0}.</value>
   </data>
   <data name="EmailConfirmationContentWithLinkX" xml:space="preserve">
     <value>Confirme sua conta &lt;a href='{0}'&gt;clicando aqui&lt;/a&gt;.</value>
@@ -162,6 +189,9 @@
   <data name="EndDateMustBeGreaterThanStartDate" xml:space="preserve">
     <value>A data de término deve ser maior que a data de início.</value>
   </data>
+  <data name="EnterAllXDigitsOfTheCode" xml:space="preserve">
+    <value>Preencha todos os {0} dígitos do código.</value>
+  </data>
   <data name="ErrorInProvidedParameters" xml:space="preserve">
     <value>Erro nos parâmetros informados.</value>
   </data>
@@ -171,11 +201,20 @@
   <data name="FailedToDeleteX" xml:space="preserve">
     <value>Falha ao excluir {0}.</value>
   </data>
+  <data name="FailedToDownloadX" xml:space="preserve">
+    <value>Falha ao baixar {0}.</value>
+  </data>
   <data name="FailedToGenerateX" xml:space="preserve">
     <value>Falha ao gerar {0}.</value>
   </data>
   <data name="FailedToUpdateX" xml:space="preserve">
     <value>Falha ao atualizar {0}.</value>
+  </data>
+  <data name="FileExceedsMaximumSizeOfX" xml:space="preserve">
+    <value>O arquivo excede o tamanho máximo de {0}.</value>
+  </data>
+  <data name="FileXExceedsMaximumSizeOfY" xml:space="preserve">
+    <value>O arquivo {0} excede o tamanho máximo de {1}.</value>
   </data>
   <data name="IdObjectNotMatchUrl" xml:space="preserve">
     <value>O ID no objeto não corresponde ao ID no URL.</value>
@@ -183,20 +222,41 @@
   <data name="InactiveUser" xml:space="preserve">
     <value>Usuário inativo.</value>
   </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Credenciais inválidas.</value>
+  </data>
   <data name="InvalidExpiredToken" xml:space="preserve">
     <value>Token inválido ou expirado.</value>
+  </data>
+  <data name="InvalidFileContent" xml:space="preserve">
+    <value>O conteúdo do arquivo é inválido.</value>
+  </data>
+  <data name="InvalidFileNameX" xml:space="preserve">
+    <value>Nome de arquivo inválido: {0}.</value>
   </data>
   <data name="InvalidFileTypeAcceptedFormatX" xml:space="preserve">
     <value>Tipo de arquivo inválido. Formato aceito: {0}.</value>
   </data>
+  <data name="LastModifiedOnX" xml:space="preserve">
+    <value>Última alteração em {0}.</value>
+  </data>
   <data name="LoginSuccessful" xml:space="preserve">
-    <value>Login bem sucedido.</value>
+    <value>Login bem-sucedido.</value>
   </data>
   <data name="LogoutConfirmation" xml:space="preserve">
-    <value>Confirmação de Saída</value>
+    <value>Confirmação de saída</value>
+  </data>
+  <data name="MaximumOfXFilesAtOnce" xml:space="preserve">
+    <value>Envie no máximo {0} arquivo(s) por vez.</value>
+  </data>
+  <data name="NoFileProvided" xml:space="preserve">
+    <value>Nenhum arquivo informado.</value>
   </data>
   <data name="NoneParameterInformed" xml:space="preserve">
     <value>Nenhum parâmetro informado.</value>
+  </data>
+  <data name="NoPermissionToAccessResource" xml:space="preserve">
+    <value>Você não tem permissão para acessar este recurso. Se necessário, solicite acesso ao administrador.</value>
   </data>
   <data name="NoPermissionToDeleteX" xml:space="preserve">
     <value>Sem permissão para excluir {0}.</value>
@@ -204,8 +264,17 @@
   <data name="NotAllowed" xml:space="preserve">
     <value>Não permitido.</value>
   </data>
+  <data name="NoXFound" xml:space="preserve">
+    <value>Nenhum(a) {0} encontrado(a).</value>
+  </data>
   <data name="OperationPerformedSuccessfully" xml:space="preserve">
     <value>Operação realizada com sucesso.</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Página não encontrada.</value>
+  </data>
+  <data name="PageXOfY" xml:space="preserve">
+    <value>Página {0} de {1}</value>
   </data>
   <data name="PasswordResetEmailContentWithLinkX" xml:space="preserve">
     <value>Por favor, redefina sua senha &lt;a href='{0}'&gt;clicando aqui&lt;/a&gt;.</value>
@@ -213,11 +282,14 @@
   <data name="PasswordResetFailed" xml:space="preserve">
     <value>Falha ao redefinir senha.</value>
   </data>
+  <data name="PasswordResetLinkSentIfRegistered" xml:space="preserve">
+    <value>Se o endereço estiver cadastrado, um link para redefinir a senha foi enviado. Verifique sua caixa de entrada e a pasta de spam.</value>
+  </data>
   <data name="PasswordResetMailWasSent" xml:space="preserve">
     <value>E-mail para redefinição de senha enviado.</value>
   </data>
   <data name="PasswordResetSuccessful" xml:space="preserve">
-    <value>Senha redefinida com sucesso!</value>
+    <value>Senha redefinida com sucesso.</value>
   </data>
   <data name="ProcessingCompleted" xml:space="preserve">
     <value>Processamento concluído.</value>
@@ -228,6 +300,18 @@
   <data name="ProvideAtLeastOneX" xml:space="preserve">
     <value>Informe pelo menos um(a) {0}.</value>
   </data>
+  <data name="ReceivedWillBeProcessedShortly" xml:space="preserve">
+    <value>Recebido. O processamento ocorrerá em breve.</value>
+  </data>
+  <data name="ResendCodeInXSeconds" xml:space="preserve">
+    <value>Reenviar código em {0}s</value>
+  </data>
+  <data name="SearchNoResultsRedefineFilters" xml:space="preserve">
+    <value>Pesquisa sem resultado. Redefina os filtros.</value>
+  </data>
+  <data name="SelectAnOption" xml:space="preserve">
+    <value>Selecione uma opção.</value>
+  </data>
   <data name="TextCopied" xml:space="preserve">
     <value>Texto copiado.</value>
   </data>
@@ -237,8 +321,20 @@
   <data name="ThereIsNoXRegisteredSoFar" xml:space="preserve">
     <value>Nenhum(a) {0} cadastrado(a) até o momento.</value>
   </data>
+  <data name="ThisActionCannotBeUndone" xml:space="preserve">
+    <value>Esta ação não pode ser desfeita.</value>
+  </data>
   <data name="ToConfirmDeletion" xml:space="preserve">
     <value>Para confirmar a exclusão</value>
+  </data>
+  <data name="TooManyRequestsTryAgainLater" xml:space="preserve">
+    <value>Muitas requisições. Tente novamente em alguns minutos.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Ocorreu um erro inesperado. Tente novamente em alguns instantes.</value>
+  </data>
+  <data name="UnsavedChangesWillBeLost" xml:space="preserve">
+    <value>Há alterações não salvas. Se você sair agora, elas serão perdidas. Deseja realmente sair?</value>
   </data>
   <data name="UploadedFileIsEmpty" xml:space="preserve">
     <value>O arquivo enviado está vazio.</value>
@@ -250,7 +346,13 @@
     <value>Código de verificação válido.</value>
   </data>
   <data name="ValueOutsideRange" xml:space="preserve">
-    <value>Valor fora da faixa</value>
+    <value>Valor fora da faixa.</value>
+  </data>
+  <data name="ValueShownOnlyOnce" xml:space="preserve">
+    <value>Este valor será exibido apenas uma vez. Copie e guarde em local seguro antes de fechar.</value>
+  </data>
+  <data name="VerificationCodeSentToX" xml:space="preserve">
+    <value>Um código de verificação foi enviado para {0}.</value>
   </data>
   <data name="ViewX" xml:space="preserve">
     <value>Ver {0}</value>
@@ -258,11 +360,29 @@
   <data name="WelcomeX" xml:space="preserve">
     <value>Seja bem-vindo(a) {0}.</value>
   </data>
+  <data name="XActivatedSuccessfully" xml:space="preserve">
+    <value>{0} ativado(a) com sucesso.</value>
+  </data>
   <data name="XAlreadyExists" xml:space="preserve">
     <value>{0} já existe.</value>
   </data>
+  <data name="XAlreadyInList" xml:space="preserve">
+    <value>{0} já consta na lista.</value>
+  </data>
+  <data name="XCanceledSuccessfully" xml:space="preserve">
+    <value>{0} cancelado(a) com sucesso.</value>
+  </data>
+  <data name="XDeactivatedSuccessfully" xml:space="preserve">
+    <value>{0} desativado(a) com sucesso.</value>
+  </data>
   <data name="XDeletedSuccessfully" xml:space="preserve">
     <value>{0} excluído(a) com sucesso.</value>
+  </data>
+  <data name="XDidNotRespondInTime" xml:space="preserve">
+    <value>{0} não respondeu a tempo.</value>
+  </data>
+  <data name="XGeneratedSuccessfully" xml:space="preserve">
+    <value>{0} gerado(a) com sucesso.</value>
   </data>
   <data name="XIncomplete" xml:space="preserve">
     <value>{0} incompleto(a).</value>
@@ -270,11 +390,20 @@
   <data name="XInvalid" xml:space="preserve">
     <value>{0} inválido(a).</value>
   </data>
+  <data name="XMustBeBetweenYandZ" xml:space="preserve">
+    <value>{0} deve estar entre {1} e {2}.</value>
+  </data>
   <data name="XMustBeEqualY" xml:space="preserve">
     <value>O(A) {0} deve ser igual ao(à) {1}.</value>
   </data>
+  <data name="XMustBeGreaterThanOrEqualToY" xml:space="preserve">
+    <value>{0} deve ser maior ou igual a {1}.</value>
+  </data>
   <data name="XMustBeGreaterThanY" xml:space="preserve">
     <value>{0} deve ser maior do que {1}.</value>
+  </data>
+  <data name="XMustBeLessThanOrEqualToY" xml:space="preserve">
+    <value>{0} deve ser menor ou igual a {1}.</value>
   </data>
   <data name="XMustBeLessThanY" xml:space="preserve">
     <value>{0} deve ser menor do que {1}.</value>
@@ -288,14 +417,26 @@
   <data name="XMustContainAtLeastYLowerCaseLetters" xml:space="preserve">
     <value>O(A) {0} deve conter pelo menos {1} letra(s) minúscula(s).</value>
   </data>
+  <data name="XMustContainAtLeastYSpecialCharacters" xml:space="preserve">
+    <value>O(A) {0} deve conter pelo menos {1} caractere(s) especial(is).</value>
+  </data>
   <data name="XMustContainBetweenYandZCharacters" xml:space="preserve">
     <value>O(A) {0} deve conter entre {1} e {2} caracteres.</value>
   </data>
+  <data name="XMustContainOnlyDigits" xml:space="preserve">
+    <value>{0} deve conter apenas dígitos.</value>
+  </data>
+  <data name="XMustContainYCharacters" xml:space="preserve">
+    <value>O(A) {0} deve conter {1} caractere(s).</value>
+  </data>
   <data name="XMustHaveAtLeastYCharacters" xml:space="preserve">
-    <value>O(A) {0} deve ter pelo menos {1} caracter(s).</value>
+    <value>O(A) {0} deve ter pelo menos {1} caractere(s).</value>
   </data>
   <data name="XMustHaveUpToYCharacters" xml:space="preserve">
     <value>O(A) {0} deve ter até {1} caractere(s).</value>
+  </data>
+  <data name="XNamedYAlreadyExists" xml:space="preserve">
+    <value>Já existe um(a) {0} com o nome {1}.</value>
   </data>
   <data name="XNotFound" xml:space="preserve">
     <value>{0} não encontrado(a).</value>
@@ -303,16 +444,28 @@
   <data name="XNotProvided" xml:space="preserve">
     <value>{0} não informado(a).</value>
   </data>
+  <data name="XRecordsImported" xml:space="preserve">
+    <value>{0} registro(s) importado(s).</value>
+  </data>
   <data name="XRegisteredSuccessfully" xml:space="preserve">
     <value>{0} cadastrado(a) com sucesso.</value>
   </data>
   <data name="XRequired" xml:space="preserve">
     <value>{0} é obrigatório(a).</value>
   </data>
+  <data name="XSentSuccessfully" xml:space="preserve">
+    <value>{0} enviado(a) com sucesso.</value>
+  </data>
+  <data name="XUnavailableTryAgainLater" xml:space="preserve">
+    <value>{0} está indisponível no momento. Tente novamente em alguns instantes.</value>
+  </data>
   <data name="XUpdatedSuccessfully" xml:space="preserve">
     <value>{0} atualizado(a) com sucesso.</value>
   </data>
   <data name="XYSuccess" xml:space="preserve">
     <value>{0} {1} com sucesso.</value>
+  </data>
+  <data name="YouCannotChangeYourOwnPermissions" xml:space="preserve">
+    <value>Você não pode alterar as próprias permissões. Solicite a outro administrador.</value>
   </data>
 </root>

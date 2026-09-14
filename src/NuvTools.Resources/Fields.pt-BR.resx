@@ -315,6 +315,9 @@
   <data name="Latitude" xml:space="preserve">
     <value>Latitude</value>
   </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
   <data name="Locality" xml:space="preserve">
     <value>Localidade</value>
   </data>
@@ -408,6 +411,9 @@
   <data name="Photo" xml:space="preserve">
     <value>Foto</value>
   </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processando...</value>
+  </data>
   <data name="Profile" xml:space="preserve">
     <value>Perfil</value>
   </data>
@@ -429,8 +435,14 @@
   <data name="RowsPerPage" xml:space="preserve">
     <value>Linhas por página</value>
   </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Salvando...</value>
+  </data>
   <data name="Security" xml:space="preserve">
     <value>Segurança</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Enviando...</value>
   </data>
   <data name="StartDate" xml:space="preserve">
     <value>Data de Início</value>

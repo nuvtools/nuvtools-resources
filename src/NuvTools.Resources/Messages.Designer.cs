@@ -79,6 +79,24 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to and {0} more.
+        /// </summary>
+        public static string AndXMore {
+            get {
+                return ResourceManager.GetString("AndXMore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to At least one of these parameters should be filled: {0}..
+        /// </summary>
+        public static string AtLeastOneOfTheseParametersShouldBeFilledX {
+            get {
+                return ResourceManager.GetString("AtLeastOneOfTheseParametersShouldBeFilledX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to At least one of these parameters should be filled: {0}..
         /// </summary>
         public static string AtLeastOneTheseParametersShoudBeFilledX {
@@ -88,7 +106,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel Deletion.
+        ///   Looks up a localized string similar to Cancel deletion.
         /// </summary>
         public static string CancelDeletion {
             get {
@@ -115,6 +133,33 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirm you are not a robot before continuing..
+        /// </summary>
+        public static string ConfirmYouAreNotARobot {
+            get {
+                return ResourceManager.GetString("ConfirmYouAreNotARobot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not communicate with {0}..
+        /// </summary>
+        public static string CouldNotCommunicateWithX {
+            get {
+                return ResourceManager.GetString("CouldNotCommunicateWithX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not copy automatically. Select the text and copy it manually..
+        /// </summary>
+        public static string CouldNotCopy {
+            get {
+                return ResourceManager.GetString("CouldNotCopy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Could not delete {0}. There are {1} associated..
         /// </summary>
         public static string CouldNotDeleteXExistYAssociated {
@@ -133,6 +178,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Created on {0} by {1}..
+        /// </summary>
+        public static string CreatedOnXByY {
+            get {
+                return ResourceManager.GetString("CreatedOnXByY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date {0} must be after date {1}..
         /// </summary>
         public static string DateXMustBeAfterDateY {
@@ -142,11 +196,38 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Date {0} must be on or after date {1}..
+        /// </summary>
+        public static string DateXMustBeOnOrAfterDateY {
+            get {
+                return ResourceManager.GetString("DateXMustBeOnOrAfterDateY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete {0}?.
+        /// </summary>
+        public static string DeleteXQuestion {
+            get {
+                return ResourceManager.GetString("DeleteXQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Do you really want to logout?.
         /// </summary>
         public static string DoYouReallyLogout {
             get {
                 return ResourceManager.GetString("DoYouReallyLogout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Duplicate values: {0}..
+        /// </summary>
+        public static string DuplicateValuesX {
+            get {
+                return ResourceManager.GetString("DuplicateValuesX", resourceCulture);
             }
         }
         
@@ -196,6 +277,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter all {0} digits of the code..
+        /// </summary>
+        public static string EnterAllXDigitsOfTheCode {
+            get {
+                return ResourceManager.GetString("EnterAllXDigitsOfTheCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error in provided parameters..
         /// </summary>
         public static string ErrorInProvidedParameters {
@@ -223,6 +313,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to download {0}..
+        /// </summary>
+        public static string FailedToDownloadX {
+            get {
+                return ResourceManager.GetString("FailedToDownloadX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to generate {0}..
         /// </summary>
         public static string FailedToGenerateX {
@@ -237,6 +336,24 @@ namespace NuvTools.Resources {
         public static string FailedToUpdateX {
             get {
                 return ResourceManager.GetString("FailedToUpdateX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The file exceeds the maximum size of {0}..
+        /// </summary>
+        public static string FileExceedsMaximumSizeOfX {
+            get {
+                return ResourceManager.GetString("FileExceedsMaximumSizeOfX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The file {0} exceeds the maximum size of {1}..
+        /// </summary>
+        public static string FileXExceedsMaximumSizeOfY {
+            get {
+                return ResourceManager.GetString("FileXExceedsMaximumSizeOfY", resourceCulture);
             }
         }
         
@@ -259,11 +376,38 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid credentials..
+        /// </summary>
+        public static string InvalidCredentials {
+            get {
+                return ResourceManager.GetString("InvalidCredentials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid or expired token..
         /// </summary>
         public static string InvalidExpiredToken {
             get {
                 return ResourceManager.GetString("InvalidExpiredToken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The file content is invalid..
+        /// </summary>
+        public static string InvalidFileContent {
+            get {
+                return ResourceManager.GetString("InvalidFileContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid file name: {0}..
+        /// </summary>
+        public static string InvalidFileNameX {
+            get {
+                return ResourceManager.GetString("InvalidFileNameX", resourceCulture);
             }
         }
         
@@ -277,6 +421,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Last modified on {0}..
+        /// </summary>
+        public static string LastModifiedOnX {
+            get {
+                return ResourceManager.GetString("LastModifiedOnX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Login successful..
         /// </summary>
         public static string LoginSuccessful {
@@ -286,7 +439,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Logout Confirmation.
+        ///   Looks up a localized string similar to Logout confirmation.
         /// </summary>
         public static string LogoutConfirmation {
             get {
@@ -295,11 +448,38 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to None parameter informed..
+        ///   Looks up a localized string similar to Send at most {0} file(s) at a time..
+        /// </summary>
+        public static string MaximumOfXFilesAtOnce {
+            get {
+                return ResourceManager.GetString("MaximumOfXFilesAtOnce", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No file was provided..
+        /// </summary>
+        public static string NoFileProvided {
+            get {
+                return ResourceManager.GetString("NoFileProvided", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No parameter was provided..
         /// </summary>
         public static string NoneParameterInformed {
             get {
                 return ResourceManager.GetString("NoneParameterInformed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You do not have permission to access this resource. Ask an administrator if you need access..
+        /// </summary>
+        public static string NoPermissionToAccessResource {
+            get {
+                return ResourceManager.GetString("NoPermissionToAccessResource", resourceCulture);
             }
         }
         
@@ -313,11 +493,20 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Not Allowed..
+        ///   Looks up a localized string similar to Not allowed..
         /// </summary>
         public static string NotAllowed {
             get {
                 return ResourceManager.GetString("NotAllowed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No {0} found..
+        /// </summary>
+        public static string NoXFound {
+            get {
+                return ResourceManager.GetString("NoXFound", resourceCulture);
             }
         }
         
@@ -327,6 +516,24 @@ namespace NuvTools.Resources {
         public static string OperationPerformedSuccessfully {
             get {
                 return ResourceManager.GetString("OperationPerformedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page not found..
+        /// </summary>
+        public static string PageNotFound {
+            get {
+                return ResourceManager.GetString("PageNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page {0} of {1}.
+        /// </summary>
+        public static string PageXOfY {
+            get {
+                return ResourceManager.GetString("PageXOfY", resourceCulture);
             }
         }
         
@@ -349,7 +556,16 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Password Reset Mail was sent..
+        ///   Looks up a localized string similar to If that address is registered, a link to reset the password has been sent. Check your inbox and your spam folder..
+        /// </summary>
+        public static string PasswordResetLinkSentIfRegistered {
+            get {
+                return ResourceManager.GetString("PasswordResetLinkSentIfRegistered", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password reset e-mail sent..
         /// </summary>
         public static string PasswordResetMailWasSent {
             get {
@@ -358,7 +574,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Password Reset Successful!.
+        ///   Looks up a localized string similar to Password reset successfully..
         /// </summary>
         public static string PasswordResetSuccessful {
             get {
@@ -394,6 +610,42 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Received. It will be processed shortly..
+        /// </summary>
+        public static string ReceivedWillBeProcessedShortly {
+            get {
+                return ResourceManager.GetString("ReceivedWillBeProcessedShortly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Resend code in {0}s.
+        /// </summary>
+        public static string ResendCodeInXSeconds {
+            get {
+                return ResourceManager.GetString("ResendCodeInXSeconds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No results. Try widening the filters..
+        /// </summary>
+        public static string SearchNoResultsRedefineFilters {
+            get {
+                return ResourceManager.GetString("SearchNoResultsRedefineFilters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select an option..
+        /// </summary>
+        public static string SelectAnOption {
+            get {
+                return ResourceManager.GetString("SelectAnOption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Text copied..
         /// </summary>
         public static string TextCopied {
@@ -421,11 +673,47 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This action cannot be undone..
+        /// </summary>
+        public static string ThisActionCannotBeUndone {
+            get {
+                return ResourceManager.GetString("ThisActionCannotBeUndone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to To confirm deletion.
         /// </summary>
         public static string ToConfirmDeletion {
             get {
                 return ResourceManager.GetString("ToConfirmDeletion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Too many requests. Try again in a few minutes..
+        /// </summary>
+        public static string TooManyRequestsTryAgainLater {
+            get {
+                return ResourceManager.GetString("TooManyRequestsTryAgainLater", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Something went wrong. Try again in a few moments..
+        /// </summary>
+        public static string UnexpectedError {
+            get {
+                return ResourceManager.GetString("UnexpectedError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There are unsaved changes. If you leave now, they will be lost. Do you really want to leave?.
+        /// </summary>
+        public static string UnsavedChangesWillBeLost {
+            get {
+                return ResourceManager.GetString("UnsavedChangesWillBeLost", resourceCulture);
             }
         }
         
@@ -457,11 +745,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value outside range.
+        ///   Looks up a localized string similar to Value outside range..
         /// </summary>
         public static string ValueOutsideRange {
             get {
                 return ResourceManager.GetString("ValueOutsideRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This value is shown only once. Copy it and store it somewhere safe before closing..
+        /// </summary>
+        public static string ValueShownOnlyOnce {
+            get {
+                return ResourceManager.GetString("ValueShownOnlyOnce", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A verification code was sent to {0}..
+        /// </summary>
+        public static string VerificationCodeSentToX {
+            get {
+                return ResourceManager.GetString("VerificationCodeSentToX", resourceCulture);
             }
         }
         
@@ -484,6 +790,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0} activated successfully..
+        /// </summary>
+        public static string XActivatedSuccessfully {
+            get {
+                return ResourceManager.GetString("XActivatedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} already exists..
         /// </summary>
         public static string XAlreadyExists {
@@ -493,11 +808,56 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0} is already in the list..
+        /// </summary>
+        public static string XAlreadyInList {
+            get {
+                return ResourceManager.GetString("XAlreadyInList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} canceled successfully..
+        /// </summary>
+        public static string XCanceledSuccessfully {
+            get {
+                return ResourceManager.GetString("XCanceledSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} deactivated successfully..
+        /// </summary>
+        public static string XDeactivatedSuccessfully {
+            get {
+                return ResourceManager.GetString("XDeactivatedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} deleted successfully..
         /// </summary>
         public static string XDeletedSuccessfully {
             get {
                 return ResourceManager.GetString("XDeletedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} did not respond in time..
+        /// </summary>
+        public static string XDidNotRespondInTime {
+            get {
+                return ResourceManager.GetString("XDidNotRespondInTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} generated successfully..
+        /// </summary>
+        public static string XGeneratedSuccessfully {
+            get {
+                return ResourceManager.GetString("XGeneratedSuccessfully", resourceCulture);
             }
         }
         
@@ -520,11 +880,29 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} must be equal {1}..
+        ///   Looks up a localized string similar to {0} must be between {1} and {2}..
+        /// </summary>
+        public static string XMustBeBetweenYandZ {
+            get {
+                return ResourceManager.GetString("XMustBeBetweenYandZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must be equal to {1}..
         /// </summary>
         public static string XMustBeEqualY {
             get {
                 return ResourceManager.GetString("XMustBeEqualY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must be greater than or equal to {1}..
+        /// </summary>
+        public static string XMustBeGreaterThanOrEqualToY {
+            get {
+                return ResourceManager.GetString("XMustBeGreaterThanOrEqualToY", resourceCulture);
             }
         }
         
@@ -534,6 +912,15 @@ namespace NuvTools.Resources {
         public static string XMustBeGreaterThanY {
             get {
                 return ResourceManager.GetString("XMustBeGreaterThanY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must be less than or equal to {1}..
+        /// </summary>
+        public static string XMustBeLessThanOrEqualToY {
+            get {
+                return ResourceManager.GetString("XMustBeLessThanOrEqualToY", resourceCulture);
             }
         }
         
@@ -574,11 +961,38 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain at least {1} special character(s)..
+        /// </summary>
+        public static string XMustContainAtLeastYSpecialCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainAtLeastYSpecialCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The {0} must contain between {1} and {2} character(s)..
         /// </summary>
         public static string XMustContainBetweenYandZCharacters {
             get {
                 return ResourceManager.GetString("XMustContainBetweenYandZCharacters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} must contain only digits..
+        /// </summary>
+        public static string XMustContainOnlyDigits {
+            get {
+                return ResourceManager.GetString("XMustContainOnlyDigits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {0} must contain {1} character(s)..
+        /// </summary>
+        public static string XMustContainYCharacters {
+            get {
+                return ResourceManager.GetString("XMustContainYCharacters", resourceCulture);
             }
         }
         
@@ -601,6 +1015,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A {0} named {1} already exists..
+        /// </summary>
+        public static string XNamedYAlreadyExists {
+            get {
+                return ResourceManager.GetString("XNamedYAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} not found..
         /// </summary>
         public static string XNotFound {
@@ -615,6 +1038,15 @@ namespace NuvTools.Resources {
         public static string XNotProvided {
             get {
                 return ResourceManager.GetString("XNotProvided", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} record(s) imported..
+        /// </summary>
+        public static string XRecordsImported {
+            get {
+                return ResourceManager.GetString("XRecordsImported", resourceCulture);
             }
         }
         
@@ -637,6 +1069,24 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0} sent successfully..
+        /// </summary>
+        public static string XSentSuccessfully {
+            get {
+                return ResourceManager.GetString("XSentSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} is unavailable right now. Try again in a few moments..
+        /// </summary>
+        public static string XUnavailableTryAgainLater {
+            get {
+                return ResourceManager.GetString("XUnavailableTryAgainLater", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} updated successfully..
         /// </summary>
         public static string XUpdatedSuccessfully {
@@ -651,6 +1101,15 @@ namespace NuvTools.Resources {
         public static string XYSuccess {
             get {
                 return ResourceManager.GetString("XYSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You cannot change your own permissions. Ask another administrator..
+        /// </summary>
+        public static string YouCannotChangeYourOwnPermissions {
+            get {
+                return ResourceManager.GetString("YouCannotChangeYourOwnPermissions", resourceCulture);
             }
         }
     }

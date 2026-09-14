@@ -9,7 +9,7 @@ A comprehensive localization library providing common UI resources (fields, acti
 
 - **Bilingual Support**: English and Portuguese (pt-BR)
 - **Four Resource Types**: Actions, Fields, Messages, and FluentValidation Messages
-- **261+ Localized Resources**: 33 actions, 162 fields, 66 messages
+- **477+ Localized Resources**: 49 actions, 311 fields, 117 messages
 - **Strongly-Typed Access**: Static properties with compile-time safety
 - **ResourceManager Support**: Runtime key lookup for dynamic scenarios
 - **.NET Multi-targeting**: Supports .NET 8, 9, and 10
@@ -38,7 +38,7 @@ Install-Package NuvTools.Resources
 ## Resource Types
 
 ### Actions
-User interface action verbs and commands (33 resources)
+User interface action verbs and commands (49 resources)
 
 ```csharp
 using NuvTools.Resources;
@@ -52,7 +52,7 @@ var cancelButton = Actions.Cancel;        // "Cancel" / "Cancelar"
 > **Note:** Actions were separated from Fields in v10.0.0 for better semantic organization.
 
 ### Fields
-Common UI field labels and terms (162 resources)
+Common UI field labels and terms (311 resources)
 
 ```csharp
 using NuvTools.Resources;
@@ -64,7 +64,7 @@ var addressLabel = Fields.Address;        // "Address" / "Logradouro"
 ```
 
 ### Messages
-User-facing notifications and validation messages (66 resources)
+User-facing notifications and validation messages (117 resources)
 
 ```csharp
 using NuvTools.Resources;
@@ -159,9 +159,9 @@ Browse searchable dictionaries with all available resources and their English/Po
 
 | Dictionary | Resources | Description |
 |------------|-----------|-------------|
-| **[Actions](docs/ACTIONS.md)** | 33 | Action verbs and commands (Add, Edit, Delete, Save, Search, etc.) |
-| **[Fields](docs/FIELDS.md)** | 162 | Form field labels and UI elements (Account, Name, Email, Address, etc.) |
-| **[Messages](docs/MESSAGES.md)** | 66 | User messages and validation templates (XNotFound, XInvalid, XRequired, etc.) |
+| **[Actions](docs/ACTIONS.md)** | 49 | Action verbs and commands (Add, Edit, Delete, Save, Search, etc.) |
+| **[Fields](docs/FIELDS.md)** | 311 | Form field labels and UI elements (Account, Name, Email, Address, etc.) |
+| **[Messages](docs/MESSAGES.md)** | 117 | User messages and validation templates (XNotFound, XInvalid, XRequired, etc.) |
 
 These dictionaries are perfect for:
 - Finding the right resource key before coding

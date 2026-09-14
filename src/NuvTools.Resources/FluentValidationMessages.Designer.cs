@@ -70,11 +70,38 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {PropertyName} must be equal {ComparisonProperty}..
+        ///   Looks up a localized string similar to {PropertyName} must be between {From} and {To}..
+        /// </summary>
+        public static string XMustBeBetweenYandZ {
+            get {
+                return ResourceManager.GetString("XMustBeBetweenYandZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The {PropertyName} must be equal to {ComparisonProperty}..
         /// </summary>
         public static string XMustBeEqualY {
             get {
                 return ResourceManager.GetString("XMustBeEqualY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {PropertyName} must be greater than or equal to {ComparisonValue}..
+        /// </summary>
+        public static string XMustBeGreaterThanOrEqualToY {
+            get {
+                return ResourceManager.GetString("XMustBeGreaterThanOrEqualToY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {PropertyName} must be less than or equal to {ComparisonValue}..
+        /// </summary>
+        public static string XMustBeLessThanOrEqualToY {
+            get {
+                return ResourceManager.GetString("XMustBeLessThanOrEqualToY", resourceCulture);
             }
         }
         
@@ -97,6 +124,15 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {PropertyName} must contain only digits..
+        /// </summary>
+        public static string XMustContainOnlyDigits {
+            get {
+                return ResourceManager.GetString("XMustContainOnlyDigits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The {PropertyName} must contain {MinLength} character(s)..
         /// </summary>
         public static string XMustContainYCharacters {
@@ -106,7 +142,7 @@ namespace NuvTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {PropertyName} must be up to {MaxLength} character(s)..
+        ///   Looks up a localized string similar to The {PropertyName} must have up to {MaxLength} character(s)..
         /// </summary>
         public static string XMustHaveUpToYCharacters {
             get {

@@ -120,17 +120,29 @@
   <data name="XInvalid" xml:space="preserve">
     <value>{PropertyName} inválido(a).</value>
   </data>
+  <data name="XMustBeBetweenYandZ" xml:space="preserve">
+    <value>{PropertyName} deve estar entre {From} e {To}.</value>
+  </data>
   <data name="XMustBeEqualY" xml:space="preserve">
     <value>O(A) {PropertyName} deve ser igual ao(à) {ComparisonProperty}.</value>
   </data>
+  <data name="XMustBeGreaterThanOrEqualToY" xml:space="preserve">
+    <value>{PropertyName} deve ser maior ou igual a {ComparisonValue}.</value>
+  </data>
+  <data name="XMustBeLessThanOrEqualToY" xml:space="preserve">
+    <value>{PropertyName} deve ser menor ou igual a {ComparisonValue}.</value>
+  </data>
   <data name="XMustContainAtLeastYCharacters" xml:space="preserve">
-    <value>O(A) {PropertyName} deve conter pelo menos {MinLength} caracter(s).</value>
+    <value>O(A) {PropertyName} deve conter pelo menos {MinLength} caractere(s).</value>
   </data>
   <data name="XMustContainBetweenYandZCharacters" xml:space="preserve">
     <value>O(A) {PropertyName} deve conter entre {From} e {To} caracteres.</value>
   </data>
+  <data name="XMustContainOnlyDigits" xml:space="preserve">
+    <value>{PropertyName} deve conter apenas dígitos.</value>
+  </data>
   <data name="XMustContainYCharacters" xml:space="preserve">
-    <value>O(A) {PropertyName} deve conter {MinLength} character(s).</value>
+    <value>O(A) {PropertyName} deve conter {MinLength} caractere(s).</value>
   </data>
   <data name="XMustHaveUpToYCharacters" xml:space="preserve">
     <value>O(A) {PropertyName} deve ter até {MaxLength} caractere(s).</value>
