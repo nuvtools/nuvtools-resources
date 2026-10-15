@@ -95,3 +95,12 @@ The project auto-generates NuGet packages on build (`GeneratePackageOnBuild = tr
 - **Actions.resx was separated from Fields.resx** in version 10.0.0 to better organize action verbs vs data field labels
 - **Solution file is .slnx format** (XML-based) instead of traditional .sln - this is the modern format for .NET solutions
 - All dictionary markdown files are in the `docs/` folder for easy GitHub browsing
+
+## CI and Releasing
+
+`.github/workflows/ci.yml` builds the solution in Release with `-warnaserror` and runs the tests on every push and pull request to `main`.
+
+The package has its own manually-run publish workflow (`resources-publish.yml`), calling the reusable `package-publish.yml`. It reads `<Version>` from the `.csproj` (never computes it), verifies the package, pushes through nuget.org trusted publishing behind the `nuget` environment, and then writes the release tag (`resources-vX.Y.Z`). See *Releasing* in the README.
+
+- A new package needs its own small workflow file and a row in the README table.
+- The SourceLink and symbol settings (`PublishRepositoryUrl`, `EmbedUntrackedSources`, `IncludeSymbols`, `snupkg`) must be in every packable project: the workflow fails a package without its `.snupkg`.
